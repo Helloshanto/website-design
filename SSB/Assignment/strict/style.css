@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    font-size: 20px;
+}
+
+/* Defult Css */
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+/* Col- 1 to 12 */
+.col-1 {
+    width: 8.33%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-3 {
+    width: 24.99%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-5 {
+    width: 41.65%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-6 {
+    width: 49.48%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-7 {
+    width: 58.31%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-8 {
+    width: 66.64%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-9 {
+    width: 74.97%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-10 {
+    width: 83.3%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-11 {
+    width: 91.63%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.col-12 {
+    width: 99.96%;
+    float: left;
+    padding: 0px 15px;
+}
+
+/* End Col */
+
+/* Margin padding */
+
+.mgtb100 {
+    margin: 100px 0px;
+}
+
+.mgtb50 {
+    margin: 50px 0px;
+}
+
+.pdtb100 {
+    padding: 100px 0px;
+}
+
+.pdtb50 {
+    padding: 50px 0px;
+}
+
+.pdb50 {
+    padding-bottom: 50px;
+}
+
+.mtop {
+    margin-top: 15px;
+}
+
+/*End Margin padding */
+
+/* Other css */
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2d3950;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+/* Start Webiste Css */
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background: #f6f9f9;
+}
+
+.logo {}
+
+.logo a img {}
+
+.menu {
+    float: right;
+}
+
+.menu ul li a {
+    padding-left: 30px;
+    color: #999999;
+    font-weight: 500;
+    transition: color .35s;
+}
+
+.menu ul li a:hover {
+    color: #2d3950;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('./img/slider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-inner {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-inner h1 {
+    color: #fff;
+    font-size: 150px;
+    line-height: 180px;
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+.banner-inner .line {
+    height: 2px;
+    width: 50%;
+    background: #5fc3ff;
+    margin: 0 auto;
+}
+
+.banner-inner p {
+    line-height: 90px;
+}
+
+.banner-inner a {
+    color: #fff;
+    border: 1px solid #5fc3ff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: background .50s, border .50s;
+}
+
+.banner-inner a:hover {
+    background: #5fc3ff;
+    border: 1px solid #fff;
+}
+
+.arrow {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+.arrow a {
+    color: #fff;
+}
+
+/* simple section */
+
+.simple {
+    background: #f6f9f9;
+    overflow: hidden;
+}
+
+.simple-part {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.simple-part h1 {
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 400;
+
+}
+
+.simple-part p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+/* Service */
+.service {
+
+    overflow: hidden;
+}
+
+.service-part {
+    background: #fff;
+    padding: 30px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px #92929242;
+}
+
+.service-part {
+    cursor: pointer;
+}
+
+.service-part img {
+    width: 80px;
+}
+
+.service-part h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.service-part p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* portfolio */
+
+.portfolio {
+    overflow: hidden;
+    background: #f9f9ff;
+}
+
+.portfolio-title {}
+
+.portfolio-title h3 {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.portfolio-title p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.porfolio-inner {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.porfolio-inner img {
+    width: 100%;
+}
+
+.port-hover {
+    width: 100%;
+    height: 97%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(30, 156, 235, .6);
+    opacity: 0;
+    transition: 1s;
+}
+
+
+.porfolio-inner:hover .port-hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.port-hover ul {
+    position: absolute;
+    width: 100%;
+    top: 39%;
+    left: 33%;
+}
+
+.port-hover ul li {}
+
+.port-hover ul li a {
+    margin: 0px 5px;
+}
+
+.port-hover ul li a:hover {}
+
+.port-hover ul li a i {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 10px;
+}
+
+/* Contatc */
+
+
+.contact {
+    background-image: url(./img/contact-bg.png);
+    height: 800px;
+}
+
+.cotact-title {
+    text-align: center;
+}
+
+.cotact-title h3 {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cotact-title p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.contact .contatc-section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.contact .contatc-section form input {
+    border: 1px solid #fff;
+}
+
+.contact .contatc-section form input[type="text"],
+.contact .contatc-section form input[type="email"] {
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.contact .contatc-section form textarea {
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.contact .contatc-section form .subnews {
+    color: #fff;
+    display: inline;
+    position: absolute;
+    margin-top: 21px;
+}
+
+.contact .contatc-section form .subnews input[type="checkbox"] {
+    margin-right: 20px;
+}
+
+.contact .contatc-section form button {
+    font-size: 26px;
+    color: #fff;
+    float: right;
+    background: #15a4fa;
+    border: none;
+    padding: 16px 50px;
+    transition: all .35s;
+}
+
+.contact .contatc-section form button:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #15a4fa;
+}
+
+/* footer */
+
+footer {
+    height: 80px;
+    line-height: 80px;
+}
+
+footer .ftext {
+    float: left;
+}
+
+footer .ftext p {
+    color: #999999;
+}
+
+footer .f-social {
+    float: right;
+}
+
+footer .f-social a i {
+    font-size: 25px;
+    color: #fff;
+    height: 40px;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+    background: #15a4fa;
+    margin-left: 10px;
+    transition: all .35s;
+}
+
+footer .f-social a:hover i {
+    border: 1px solid #15a4fa;
+    background: #fff;
+    color: #15a4fa;
+}

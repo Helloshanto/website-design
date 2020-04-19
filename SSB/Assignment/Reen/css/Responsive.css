@@ -1,0 +1,304 @@
+/* ==========================================================
+
+Theme Name : Reen
+FILE : RESPONSIVE
+
+============================================================= */
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  //CSS
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  .carousel-caption {
+    bottom: 25%;
+  }
+
+  .service .service-inner img {
+    margin-bottom: 170px;
+  }
+
+
+  .f-contact .contatc-part p i {
+    margin-right: 8px;
+  }
+
+  .f-subscrib .sub a {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-nav {
+    margin-top: 15px !important;
+  }
+
+  .carousel-caption {
+    bottom: 18%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 36px;
+  }
+
+  .service .service-inner img {
+    margin-bottom: 180px;
+  }
+
+
+  .portfolio .portfolio-section .portfolio-part {
+    padding: 50px;
+  }
+
+  .footer-bottom .copyright p {
+    text-align: center;
+  }
+
+  .footer-bottom .f-menu ul li a {
+    color: #707e8c;
+    line-height: 20px;
+  }
+
+
+  .footer-bottom .f-menu {
+    margin-left: 9%;
+  }
+
+  .f-about {
+    margin-bottom: 30px;
+  }
+
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar-nav {
+    margin-top: 15px !important;
+  }
+
+  header .header-top .top-info {
+    text-align: center;
+    float: none;
+  }
+
+  header .header-top {
+    padding: 30px 0px;
+  }
+
+  .footer-bottom .f-menu ul li a {
+    line-height: 20px;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .footer-bottom .copyright p {
+    line-height: 20px;
+    text-align: center;
+  }
+
+  header .header-top .top-social {
+    float: none;
+    margin-left: 20%;
+  }
+
+  .section-title h3 {
+    font-size: 26px;
+  }
+
+  .carousel-caption {
+    bottom: 17%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 20px;
+  }
+
+  .carousel-caption p {
+    font-size: 8px;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+
+  .site-btn,
+  .carousel-caption .site-btn {
+    color: #fff;
+    background: #00bc9c;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+  .section-title p {
+    font-size: 10px;
+    line-height: normal;
+    color: #73879c;
+  }
+
+  .service .service-inner p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .portfolio .portfolio-section .portfolio-part h5 {
+    font-size: 20px;
+  }
+
+  .f-about img {
+    width: 25%;
+    margin-bottom: 10px;
+  }
+
+  .f-work,
+  .f-about,
+  .f-contact {
+    margin-bottom: 20px;
+  }
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  header .header-top .top-info p {
+    font-size: 11px;
+    margin-left: 5px;
+    text-align: center;
+  }
+
+  header .header-top .top-social a {
+    color: #506a85;
+    margin-left: 15px;
+    font-size: 14px;
+    transition: .35s;
+  }
+
+  header .header-top .top-social {
+    margin-right: 30%;
+    padding: 10px 0px;
+  }
+
+  .navbar-nav {
+    margin-top: 15px !important;
+  }
+
+  .navigation-section .navbar a img {
+    width: 70%;
+  }
+
+  .carousel-caption {
+    bottom: 5%;
+  }
+
+  .carousel-caption h2 {
+    font-size: 16px;
+  }
+
+  .carousel-caption p {
+    font-size: 8px;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+
+  .site-btn,
+  .carousel-caption .site-btn {
+    color: #fff;
+    background: #00bc9c;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 8px;
+  }
+
+  .carousel-indicators li {
+    background-color: #00bc9c;
+    border-radius: 5px;
+    margin-bottom: -16px;
+    width: 10px;
+  }
+
+
+
+  .section-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+  }
+
+  .section-title p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .service .service-inner {
+    text-align: center;
+  }
+
+  .service .service-inner img {
+    float: none;
+    margin-bottom: 10px;
+    margin-right: 0px;
+
+
+  }
+
+  .footer-bottom .f-menu ul li a {
+    color: #707e8c;
+    line-height: 30px;
+    margin-left: 20px;
+    float: none;
+    transition: .35s;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .footer-bottom .copyright p {
+    line-height: 10px;
+    text-align: center;
+  }
+
+  header .header-top {
+    background: #f5f7fa;
+    padding: 15px 0px;
+    border-bottom: 1px solid #506a856b;
+  }

@@ -1,0 +1,406 @@
+/* ==========================================================
+
+Theme Name : Reed
+Assingmet : SSB 
+Componates USE : html, Css, Bootsrap, Jq Plugin & responsive
+Start Date : 18-4-2020
+ENd Date : 
+
+
+
+============================================================= */
+
+
+
+
+/* =====================================
+             Google Font
+======================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* =====================================
+         Global Site CSS
+======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #506a85;
+}
+
+
+/* =====================================
+         Custom Site CSS
+======================================== */
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+.pdtb100 {
+
+    padding: 100px 0px;
+}
+
+.pdb50 {
+
+    padding: 50px 0px;
+}
+
+
+.section-title {}
+
+.section-title h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #506a85;
+}
+
+.section-title p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #73879c;
+}
+
+
+/* =====================================
+         01. header
+======================================== */
+
+header {}
+
+header .header-top {
+    background: #f5f7fa;
+    padding: 10px 0px;
+    border-bottom: 1px solid #506a856b;
+}
+
+header .header-top .top-info {
+    float: left;
+}
+
+header .header-top .top-info p {
+    display: inline;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+header .header-top .top-info p i {
+    margin-right: 5px;
+}
+
+header .header-top .top-social {
+    float: right;
+}
+
+header .header-top .top-social a {
+    color: #506a85;
+    margin-left: 30px;
+    font-size: 14px;
+    transition: .35s;
+}
+
+header .header-top .top-social a:hover {
+    color: #00bc9c;
+}
+
+/* Navigation */
+
+.navigation-section {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.navigation-section .navbar a img {}
+
+.navigation-section .navbar {}
+
+.navbar .navbar-nav {}
+
+.navbar .navbar-nav li {}
+
+.navbar .navbar-nav li .nav-link {
+    color: #506A85;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.navbar .search a {
+    color: #506A85;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: -30px;
+}
+
+/* =====================================
+         02. Banner Area
+======================================== */
+
+.carousel-item {
+    max-height: 830px;
+}
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.carousel-caption h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #a3b1bf;
+    margin-bottom: 30px;
+}
+
+.site-btn,
+.carousel-caption .site-btn {
+    color: #fff;
+    background: #00bc9c;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+.carousel-indicators li {
+    background-color: #00bc9c;
+    border-radius: 5px;
+}
+
+/* =====================================
+         03. Service
+======================================== */
+
+.service {}
+
+.service .service-inner {}
+
+.service .service-inner img {
+    float: left;
+    width: 30px;
+    margin-bottom: 120px;
+    margin-right: 20px;
+}
+
+.service .service-inner h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.service .service-inner p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* =====================================
+         04. portfolio
+======================================== */
+
+.portfolio {
+    background: #f2f5f7;
+}
+
+.portfolio .portfolio-section {
+    padding-bottom: 50px;
+}
+
+.portfolio .portfolio-section .portfolio-part {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px 1px #00000021;
+    margin-bottom: 30px;
+}
+
+.portfolio .portfolio-section .portfolio-part img {}
+
+.portfolio .portfolio-section .portfolio-part h5 {
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.portfolio .portfolio-section .portfolio-part p {}
+
+.work-slider .owl-carousel .item img {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #506a85;
+}
+
+/* =====================================
+         04. get-in-touch 
+======================================== */
+
+
+.get-in-touch .section-title p {
+    margin-bottom: 30px;
+}
+
+
+/* =====================================
+         06. Footer
+======================================== */
+
+/*  Footer */
+.footer {
+    background: #2f4052;
+    color: #fff;
+}
+
+.footer .footer-top {
+    border-bottom: 1px solid #00bc9c;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .footer-top h5 {
+    font-size: 24px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #f2f5f7;
+    font-weight: 600;
+}
+
+/* f-about */
+.f-about {}
+
+.f-about img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.f-about p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.f-about a {
+    color: #06a489;
+    font-weight: 500;
+}
+
+/* f-work */
+.f-work {}
+
+.f-contact {}
+
+.f-contact p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.f-contact .contatc-part {}
+
+.f-contact .contatc-part p {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.f-contact .contatc-part p i {
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* f-subscrib */
+.f-subscrib {}
+
+.f-subscrib p {
+
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.f-subscrib .sub {
+    position: relative;
+}
+
+.f-subscrib .sub input {
+    width: 100%;
+    background: #4e5c6c;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 11px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.f-subscrib .sub a {
+    position: relative;
+    background: #06a489;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 11px 20px;
+    border-radius: 5px;
+    float: right;
+    margin-top: -47px;
+    margin-right: 4px;
+}
+
+/* .footer-bottom */
+.footer-bottom {
+    height: 80px;
+    color: #707e8c;
+    font-weight: 500;
+}
+
+
+.footer-bottom .copyright p {
+    line-height: 80px;
+}
+
+.footer-bottom .f-menu {
+    float: right;
+    position: absolute;
+}
+
+
+.footer-bottom .f-menu ul li a {
+    color: #707e8c;
+    line-height: 80px;
+    margin-left: 20px;
+    float: right;
+    text-align: right;
+    transition: .35s;
+}
+
+.footer-bottom .f-menu ul li a:hover {
+    color: #06a489;
+}
