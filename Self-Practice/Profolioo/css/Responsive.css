@@ -1,0 +1,429 @@
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /*===================================
+           scrolldown
+    =====================================*/
+    .scrolldown {
+        left: 90%;
+    }
+    .scrolldown p {
+        text-transform: uppercase;
+    }
+    /*===================================
+           about
+    =====================================*/
+    #about-button {
+        margin-top: 30px;
+    }
+    #about-text {
+        padding: 0px 20px;
+    }
+    /*===================================
+           Testimonial
+    =====================================*/
+    .owl-nav {
+        padding: 0px 0px;
+    }
+    /*===================================
+           blog-section
+    =====================================*/
+    .blog-section .post-info ul li i {
+        font-size: 12px;
+    }
+    .blog-section .post-info ul li {
+        margin-right: 5px;
+        font-size: 11px;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*===================================
+          navbar
+    =====================================*/
+    .navbar-right {
+        margin-right: -15px;
+    }
+    .navbar-nav li a {
+        position: relative;
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    /*===================================
+          Home background
+    =====================================*/
+    .heading-1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .heading-2 {
+        font-size: 40px;
+    }
+    #slider-scial a i {
+        margin: 10px 30px 0px 5px;
+        font-size: 16px;
+    }
+    /*===================================
+           scrolldown
+    =====================================*/
+    .scrolldown {
+        left: 88%;
+    }
+    .scrolldown p {
+        color: #fff;
+        font-size: 10px;
+    }
+    .scrolldown p:after {
+        font-size: 11px;
+    }
+    /*===================================
+           about
+    =====================================*/
+    #about-button {
+        margin-top: 30px;
+    }
+    #about-text {
+        padding: 0px 0px;
+    }
+    .about-image img {
+        margin-top: 60px;
+    }
+    /*===================================
+           Service
+    =====================================*/
+    .service-content img {
+        width: 40px;
+    }
+    .service-content h2 {
+        font-size: 18px;
+    }
+    .service-content p {
+        font-size: 12px;
+    }
+    /*===================================
+           Testimonial
+    =====================================*/
+    .owl-nav {
+        padding: 0px 0px;
+    }
+    .testimonial-content {
+        width: 550px;
+    }
+    /*===================================
+           counterup
+    =====================================*/
+    .counterup-text {
+        margin-bottom: 30px;
+    }
+    /*===================================
+           blog
+    =====================================*/
+    .post-info {
+        text-align: center;
+    }
+    .blog-section .post-text h4 a {
+        font-size: 14px;
+    }
+    .blog-section .post-info ul li {
+        margin-top: 5px;
+    }
+    .blog-section .post-info ul li {
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    .post-text {
+        text-align: center;
+    }
+    .blog-section .post-text p {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    /*===================================
+           contact-info
+    =====================================*/
+    .contact-info ul li {
+        margin-right: 20px;
+    }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*===================================
+          navbar
+    =====================================*/
+    .navbar-toggle {
+        border: 2px solid white;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background: #fff;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 340px;
+        background: #222222;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+    /*===================================
+       Home /slider-section
+    =====================================*/
+    #slider-section {
+        text-align: center;
+        margin-left: 0;
+    }
+    /*===================================
+       scrolldown
+    =====================================*/
+    .scrolldown {
+        top: 85%;
+        left: 70%;
+    }
+    /*===================================
+       about
+    =====================================*/
+    .about-image img {
+        margin: 0 auto;
+    }
+    /*===================================
+       service
+    =====================================*/
+    .service-content {
+        margin-bottom: 30px;
+    }
+    /*===================================
+       portfolio
+    =====================================*/
+    #isotop-filters button {
+        padding-right: 30px;
+    }
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+    /*===================================
+       counterup
+    =====================================*/
+    .counterup-text {
+        margin-bottom: 30px;
+    }
+    /*===================================
+       testimonial
+    =====================================*/
+    .owl-nav {
+        padding: 0px 0px;
+    }
+    .testimonial-content {
+        width: 600px;
+    }
+    .testimonial-content p {
+        font-size: 12px;
+    }
+    /*===================================
+       blog-section 
+    =====================================*/
+    #blog-section img {
+        width: 100px;
+        float: left;
+        margin-left: 15px;
+    }
+    .blog-section {
+        margin-bottom: 30px;
+    }
+    .blog-section img {
+        width: 100%;
+    }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /*===================================
+       navbar
+    =====================================*/
+    .navbar-toggle {
+        border: 2px solid white;
+    }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background: #fff;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 340px;
+        background: #222222;
+        margin-top: 10px;
+        padding: 10px 20px;
+    }
+    /*===================================
+          Home/slider-section
+    =====================================*/
+    #slider-section {
+        text-align: center;
+        margin-left: 0;
+    }
+    .heading-1 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .heading-2 {
+        font-size: 30px;
+    }
+    #slider-scial a i {
+        margin: 10px 20px 0px 5px;
+    }
+    /*===================================
+       scrolldown
+    =====================================*/
+    .scrolldown {
+        top: 83%;
+        left: 40%;
+    }
+    .scrolldown p {
+        font-size: 12px;
+    }
+    .scrolldown p:after {
+        font-size: 12px;
+    }
+    /*===================================
+       about 
+    =====================================*/
+    #about-text {
+        padding: 10px 0px;
+        text-align: center;
+    }
+    /*===================================
+       service
+    =====================================*/
+    .service-content {
+        margin-bottom: 30px;
+    }
+    /*===================================
+       portfolio
+    =====================================*/
+    #isotop-filters button {
+        padding-right: 10px;
+    }
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+    /*===================================
+       counterup
+    =====================================*/
+    .counterup-text {
+        margin-bottom: 30px;
+    }
+    /*===================================
+      testimonial
+    =====================================*/
+    .testimonial-content {
+        width: 400px;
+    }
+    .owl-nav {
+        display: none;
+    }
+    /*===================================
+       blog-section 
+    =====================================*/
+    .blog-section {
+        margin-bottom: 30px;
+    }
+    /*===================================
+       brand-logo
+    =====================================*/
+    #brand-logo img {
+        width: 12%;
+        float: left;
+        margin-right: 13px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+    /*===================================
+       Home/Slider
+    =====================================*/
+    #slider-section {
+        text-align: center;
+        margin-left: 0;
+    }
+    .heading-1 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .heading-2 {
+        font-size: 24px;
+    }
+    #slider-scial a i {
+        margin: 10px 10px 0px 5px;
+    }
+    /*===================================
+       scrolldown
+    =====================================*/
+    .scrolldown {
+        top: 83%;
+        left: 35%;
+    }
+    /*===================================
+       Portfolio
+    =====================================*/
+    #isotop-filters button {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+    /*===================================
+       testimonial
+    =====================================*/
+    .testimonial-content {
+        width: 250px;
+    }
+    /*===================================
+       blog
+    =====================================*/
+    .blog-section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    /*===================================
+       contact
+    =====================================*/
+    .contact-info {
+        text-align: center;
+    }
+    .contact-info ul li {
+        margin-right: 0px;
+        display: block;
+    }
+    /*===================================
+       footer-scial
+    =====================================*/
+    #footer-scial a i {
+        padding: 10px 10px 0px 5px;
+    }
+}

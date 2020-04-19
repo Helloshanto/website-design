@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3a3a3a;
+}
+
+
+/* Importent Css */
+
+
+/* Margin top */
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+
+/* padding top */
+
+.pd120 {
+    padding-top: 120px;
+}
+
+.pd80 {
+    padding-top: 80px;
+}
+
+.pd50 {
+    padding-top: 50px;
+}
+
+.orange-color {
+    color: #FF885E;
+}
+.orange-bg {
+    background-color: #FF885E;
+}
+
+
+/* Header section */
+
+
+/* Backgound */
+
+.hero {
+    background-image: url("./img/Home-hero-2.jpeg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    top: 20px;
+    box-shadow: 0px 5px 14px -1px #67676721;
+    height: 80px;
+}
+
+.nav-link {
+    color: #3a3a3a;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: color .45s;
+}
+
+.nav-link:hover {
+    color: #558BFF;
+}
+
+.hero-text {
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.hero-text h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.hero-text .F-btn {
+    background: #558BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background .45s, color .45s ease-in;
+}
+
+.hero-text .F-btn:hover {
+    background: #fff;
+    color: #190844;
+    box-shadow: 0px 6px 8px 2px #000057;
+}
+
+.exp-content {
+    padding: 18px 25px;
+    box-shadow: -1px 2px 4px 1px #19084424;
+    border-radius: 10px 0px;
+}
+
+.exp-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #190844;
+}
+
+.exp-content p {
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 500;
+    color: #3a3a3a;
+}
+
+.about-img,
+.skill-img {
+    box-shadow: 0px -1px 8px 4px #0000571a;
+}
+
+.about-area h3 {
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #000057;
+}
+
+.about-area h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.about-area p {
+    color: #3a3a3a;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.social-link a i {
+    font-size: 30px;
+    padding: 10px 10px;
+    color: #558BFF;
+    transition: ease-in color .30s;
+    margin-bottom: 30px;
+}
+
+.social-link a:hover i {
+    color: #000057;
+}
+
+.about-area .about-btn {
+    border: 1px solid #558BFF;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #558BFF;
+    transition: color .25s, background .25s ease-in;
+}
+
+.about-area .about-btn i {
+    margin-right: 10px;
+}
+
+.about-area .about-btn:hover {
+    background: #558BFF;
+    color: #fff;
+    box-shadow: -1px 2px 4px 1px #19084424;
+}
+
+
+/* Portfolio */
+
+.section-header h3 {
+    font-size: 35px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #000057;
+}
+
+.section-header p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #3a3a3a;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+/* Skill section */
+
+.skill-bar {
+    width: 90%;
+    background: #558BFF;
+    height: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.skill-bar::before {
+    display: block;
+    content: '';
+    position: absolute;
+    z-index: 0;
+    width: 90%;
+    height: 15px;
+    background: #e3e7ea;
+    z-index: -1;
+}
+
+
+/*  */
+
+.exp-section h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #000057;
+    margin-bottom: 30px;
+}
+
+.exp-section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.exp-contact {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000057;
+    font-weight: 500;
+}
+
+.exp-contact i {
+    font-size: 25px;
+    margin-right: 10px;
+    margin-left: 20px;
+    background: #558BFF;
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+}
+
+.exp-contact i:first-child {
+    margin-left: 0px;
+}
+
+
+/* testimonial-area */
+
+.testimonial-area {
+    border: 1px solid #3a3a3a;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 4px 1px #19084424;
+}
+
+.testimonial-area i {
+    font-size: 25px;
+    background: #558BFF;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.testimonial-area h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000057;
+}
+
+.testimonial-area .Test-designation {
+    color: #558BFF;
+    font-weight: 500;
+}
+
+.testimonial-area p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+/* blog */
+.card {
+    padding: 10px;
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: -1px 2px 4px 1px #19084424;
+}
+
+.card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card-title {
+
+    font-size: 25px;
+    font-weight: 700;
+    color: #000057;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+
+.card-body .blog-btn {
+    border: 1px solid #558BFF;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #558BFF;
+    transition: color .25s, background .25s ease-in;
+}
+
+.card-body .blog-btn:hover {
+    background: #558BFF;
+    color: #fff;
+    box-shadow: -1px 2px 4px 1px #19084424;
+}
+
+footer {
+    padding: 50px 0px;
+    background-color: #000057;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 25px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 30px;
+    transition: color .45s;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #558BFF;
+}
