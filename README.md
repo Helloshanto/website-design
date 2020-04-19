@@ -34,6 +34,11 @@
 
 
 
+## Self Practice
+
+**Fooleo** : https://helloshanto.github.io/website-design/Self-Practice/Fooleo/
+**Profolioo** : https://helloshanto.github.io/website-design/Self-Practice/Profolioo/
+
 
 
 
