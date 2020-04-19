@@ -1,0 +1,518 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&display=swap');
+
+/* Cosutom website style */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* custom Css */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.col {
+    width: 100%;
+    padding: 30px;
+    float: left;
+}
+
+.col-20 {
+    width: 15%;
+    padding: 0px 15px;
+    float: left;
+}
+
+.col-25 {
+    width: 22%;
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+.col-30 {
+    margin: 0px 15px;
+    width: 30%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.col-40 {
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50 {
+    width: 47%;
+    padding: 0px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.col-60 {
+    width: 30%;
+    padding: 0px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.col-70 {
+    width: 63%;
+    padding: 0px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+/* margin-bottom */
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.mb70 {
+    margin-bottom: 70px;
+}
+
+.mb80 {
+    margin-bottom: 80px;
+}
+
+.mb90 {
+    margin-bottom: 90px;
+}
+
+.mb100 {
+    margin-bottom: 100px;
+}
+
+.mb150 {
+    margin-bottom: 150px;
+}
+
+/* padding- top bottom */
+
+.pd100 {
+    padding: 100px 0px;
+}
+
+.pd50 {
+    padding: 50px 0px;
+}
+
+.pb50 {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+
+.setion-title {
+    text-align: center;
+}
+
+.setion-title h3 {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #343435;
+}
+
+.setion-title p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #717171;
+}
+
+
+/* site style */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+
+
+header {
+    background-image: url(assets/img/Hero-bg.png);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav-section */
+
+.nav-section {
+    height: 100px;
+    line-height: 100px;
+}
+
+
+.nav-section .nav {
+    margin-top: -10px;
+}
+
+
+.nav-section .nav ul li a {
+    color: #fff;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav-section .nav ul li .signup a {
+    border: 1px solid #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: background .35s, color .35s;
+}
+
+.nav-section .nav ul li .signup a:hover {
+    background: #fff;
+    color: #E7434E;
+}
+
+/*End nav-section */
+/* slider */
+.slider-text {
+    text-align: center;
+    color: #fff;
+    margin-top: 18%;
+}
+
+.slider-text h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.slider-text h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+
+.slider-text .slider-search {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.slider-text .slider-search input {
+    width: 40%;
+    padding: 16px 15px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.slider-text .slider-search input:focus {
+    outline: none;
+}
+
+.slider-text .slider-search a {
+    background: #E7434E;
+    color: #fff;
+    padding: 15px 15px;
+    margin-left: -5px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.slider-text .slider-search a i {
+    margin-right: 10px;
+}
+
+/* End Slider */
+/* boat-info */
+.boat-info {
+    text-align: center;
+    box-shadow: -1px 6px 11px #00000026;
+    margin-top: -90px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px 0px;
+}
+
+.boat-info-section{
+    padding: 20px 0px;
+}
+.boat-info-section h3 {
+    font-size: 30px;
+    color: #343434;
+}
+
+.boat-info-section p {
+    color: #717171;
+    margin-top: 10px;
+}
+
+.boat-br {
+    border-right: 2px solid #3434342e;
+}
+/* End boat-info */
+/* exp-section */
+
+.exp-section img {
+    position: relative;
+    width: 100%;
+}
+
+.exp-section .exp-top {
+    position: absolute;
+    margin-top: -16%;
+    margin-left: 25px;
+}
+
+.exp-section .exp-top a {
+    color: #fff;
+    background: #E7434E;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.exp-section .exp-top a i {
+    margin-right: 5px;
+}
+
+.exp-section .exp-bottom {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 25px;
+    color: #fff;
+
+}
+
+.exp-section .exp-bottom h3 {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.exp-section .exp-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.exp-button {
+    text-align: center;
+}
+
+.exp-button a {
+    color: #343434;
+    font-weight: 500;
+    border: 1px solid #343434;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background .4s, color .4s, border .4s ease-in;
+}
+
+.exp-button a:hover {
+    background: #E7434E;
+    color: #fff;
+    border: none;
+}
+
+/* End exp-section */
+
+/* ownboat */
+.ownboat {
+    background-image: url(./assets/img/bote-bg.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ownboat-section {
+    margin-top: 10%;
+    color: #fff;
+    text-align: center;
+}
+
+.ownboat-section h3 {
+    font-size: 72px;
+    line-height: 90px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.ownboat-section p {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.ownboat-section a {
+    color: #fff;
+    background: #E7434E;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background .45s, color .45s;
+}
+
+.ownboat-section a:hover {
+    color: #E7434E;
+    background: #fff;
+}
+
+.fe-top {
+    margin-top: -15% !important;
+}
+
+.fe-top a {
+    font-weight: 500;
+}
+
+/*End ownboat */
+
+/* footer */
+
+footer {
+    background: #404040;
+    position: relative;
+    height: 200px;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-image: url(./assets/img/f-line.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.footer h6 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+.footer-menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    transition: color .35s;
+}
+
+.footer-menu ul li a:hover {
+    color: #E7434E;
+    cursor: pointer;
+}
+
+.footer-sub input {
+    width: 70%;
+    padding: 16px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.footer-sub input:focus {
+    outline: none;
+}
+
+.footer-sub>a {
+    background: #E7434E;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 10px;
+    margin-left: -10px;
+    text-transform: uppercase;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.footer-sub .fsocial {
+
+    margin-top: 20px;
+}
+
+.footer-sub .fsocial a {
+    color: #fff;
+    margin-right: 15px;
+}
+
+.footer-sub .fsocial a i {
+    font-size: 20px;
+    border: 1px solid #fff;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 100%;
+    background: #717171;
+    transition: border .35s, background .35s, color .35s;
+
+}
+
+.footer-sub .fsocial a:hover i {
+    border: 1px solid #E7434E;
+    background: #E7434E;
+    color: #fff;
+
+}
+
+/* End footer */
