@@ -1,0 +1,58 @@
+a {
+    text-decoration: none;
+}
+
+
+/* padding */
+
+.pdtb100 {
+    padding: 100px 0px;
+}
+
+.pdtb50 {
+    padding: 50px 0px;
+}
+
+.pdtb20 {
+    padding: 20px 0px;
+}
+
+.pdb50 {
+    padding-bottom: 50px;
+}
+
+.pdb100 {
+    padding-bottom: 100px;
+}
+
+
+/* color */
+.orange {
+    color: #FC6A42;
+}
+
+.btn-orange {
+    color: #fff;
+    background: #FC6A42;
+}
+
+.btn-blue {
+    color: #fff;
+    background: #4466C9;
+}
+
+/* section-header */
+.section-header {}
+
+.section-header h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #648cff;
+}
+
+.section-header p {
+    color: #999999;
+    font-size: 18px;
+}
+
+/* End section-header */
