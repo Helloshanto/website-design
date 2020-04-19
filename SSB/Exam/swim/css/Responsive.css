@@ -1,0 +1,352 @@
+/* Responsive */
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .banner .banner-left h1 {
+        font-size: 40px;
+    }
+
+    .collapse {
+        background: #fff !important;
+        z-index: 1;
+        border-radius: 5px;
+        box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #444444;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover,
+    .navbar-nav .nav-item .nav-link:active,
+    .navbar-nav .nav-item .nav-link:focus {
+        color: #444444;
+    }
+
+    .about:before {
+        content: '';
+        position: absolute;
+        background: none;
+        width: 970px;
+        height: 250px;
+        top: 0;
+        left: 0;
+    }
+
+    .about-right h3 {
+        font-size: 41px;
+    }
+
+    .about-right h5,
+    .reg-left h5 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .course .course-section .course-inner p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .site-btn {
+
+        padding: 10px 10px;
+    }
+
+    .course .course-section .course-inner h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footer-contact .footer-social ul li a i {
+        color: #fff;
+        text-align: center;
+        font-size: 17px;
+        height: 35px;
+        width: 35px;
+        float: left;
+        line-height: 35px;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        margin-right: 10px;
+        transition: .35s ease-in;
+    }
+
+    footer .about-footer {
+        text-align: center;
+    }
+
+    footer .about-footer h2 {
+        padding-bottom: 5px;
+        font-size: 24px;
+    }
+
+    header,
+    .course,
+    .instructors,
+    .review,
+    .app,
+    .reg,
+    footer {
+        width: 127%;
+        text-align: center;
+    }
+
+}
+
+/* small devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    .collapse {
+        background: #fff !important;
+        z-index: 1;
+        border-radius: 5px;
+        box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #444444;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover,
+    .navbar-nav .nav-item .nav-link:active,
+    .navbar-nav .nav-item .nav-link:focus {
+        color: #444444;
+    }
+
+    .about {
+        width: 161%;
+    }
+
+    .about:before {
+        content: '';
+        position: absolute;
+        background: transparent;
+        width: 970px;
+        height: 250px;
+        top: 0;
+        left: 0;
+    }
+
+    .service .service-inner {
+        margin-bottom: 30px;
+        width: 175%;
+        padding: 50px 0px;
+    }
+
+    .course .course-section .course-inner p {
+        text-align: center;
+    }
+
+    .gallery .section-title {
+        width: 175%;
+
+    }
+
+    .gallery-img {
+        width: 175%;
+    }
+
+    .gallery-img img {
+        width: 175%;
+        height: auto;
+    }
+
+    .reg-left {
+        text-align: center;
+    }
+
+    .instructors .instructor-profile .inst-info {
+        width: 150px;
+        left: 22%;
+
+    }
+
+    .instructors .instructor-profile .inst-info h4 {
+        font-size: 20px;
+    }
+
+    .instructors .instructor-profile .inst-info p {
+        font-size: 16px;
+
+    }
+
+    .instructors .instructor-profile .inst-social {
+        margin-top: 120px;
+        text-align: center;
+        margin-left: 17%;
+    }
+
+    .instructors .instructor-profile .inst-social ul li a i {
+        margin-bottom: 30px;
+    }
+
+    footer .about-footer {
+        margin-bottom: 50px;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0px;
+    }
+
+    footer .footer-menu {
+        margin-bottom: 50px;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0px;
+    }
+
+    footer#Contact {
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-left: 136px;
+    }
+
+
+    .about-right {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    header,
+    .course,
+    .instructors,
+    .review,
+    .app,
+    .reg,
+    footer {
+        width: 168%;
+        text-align: center;
+    }
+}
+
+
+/* Extra Small devices */
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .collapse {
+        background: #fff !important;
+        z-index: 1;
+        border-radius: 5px;
+        box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #444444;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover,
+    .navbar-nav .nav-item .nav-link:active,
+    .navbar-nav .nav-item .nav-link:focus {
+        color: #444444;
+    }
+
+    .banner {
+        height: 500px;
+        text-align: center;
+    }
+
+    .service .service-inner {
+        margin-bottom: 30px;
+        width: 309%;
+        padding: 50px 0px;
+    }
+
+    .about:before {
+        content: '';
+        position: absolute;
+        background: transparent;
+        /* width: 970px; */
+        height: 250px;
+        top: 0;
+        left: 0;
+    }
+
+    .about {
+        width: 290%;
+    }
+
+    .course .course-section .course-inner {
+        text-align: center;
+    }
+
+    .service .service-inner {
+        margin-bottom: 30px;
+    }
+
+    .course .course-section .course-inner p {
+        text-align: center;
+    }
+
+    .about-right {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .instructors .instructor-profile .inst-social {
+        margin-top: 115px;
+        margin-left: 36%;
+    }
+
+    .instructors .instructor-profile .inst-info {
+        width: 500px;
+    }
+
+    .gallery {
+        width: 291%;
+    }
+
+    .gallery-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .reg-left {
+        text-align: center;
+    }
+
+    footer .about-footer {
+        margin-bottom: 50px;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0px;
+    }
+
+    footer .footer-menu {
+        margin-bottom: 50px;
+        border-bottom: 1px solid #fff;
+        padding: 20px 0px;
+    }
+
+    footer#Contact {
+        text-align: center;
+    }
+
+    .footer-social {
+        margin-left: 38%;
+    }
+
+    header,
+    .course,
+    .instructors,
+    .review,
+    .app,
+    .reg,
+    footer {
+        width: 302%;
+        text-align: center;
+    }
+}
