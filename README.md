@@ -12,11 +12,11 @@
 
 **EXAM ↓**
 
-**01.Swim** : https://helloshanto.github.io/website-design/SSB/SSB/Exam/swim
+**01.Swim** : https://helloshanto.github.io/website-design/SSB/Exam/swim/
 
 **Practice ↓**
 
-**01.Fun Weather** : https://helloshanto.github.io/website-design/SSB/practice/Fun-Weather/
+**01.Fun Weather** : https://helloshanto.github.io/website-design/SSB/Practice/Fun-Weather/
 
 
 
