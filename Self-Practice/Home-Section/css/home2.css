@@ -1,0 +1,187 @@
+/* ###################################
+Project :Home Page 2
+Themelink : https://angular.pixelstrap.com/unice/enterprice
+
+###################################### */
+
+
+/* ###################################
+    Global Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Site Custom Css */
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.pdtb-100 {
+    padding: 100px 0px;
+}
+
+.pdtb-50 {
+    padding: 100px 0px;
+}
+
+.pdb-50 {
+    padding-bottom: 100px;
+}
+
+.text-orange {
+    color: #F7A30A;
+}
+
+
+/* ###################################
+    END Global Site Custom Css
+###################################### */
+
+
+
+/* ###################################
+     Site Css
+###################################### */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+
+/* Header */
+
+.header2 .container-fluid,
+.header2 .container-lg,
+.header2 .container-md,
+.header2 .container-sm,
+.header2 .container-xl {
+    padding-left: 0;
+}
+
+
+.header2 {
+    background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9)), url(../img/Home-2/bg-intro.jpg);
+    background-size:cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.header2 .navigation2 {
+    /* padding: 20px 0px; */
+}
+
+.header2 .navigation2 .navbar {
+    padding: 0;
+}
+
+.header2 .navigation2 .navbar .navbar-brand {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 15px 30px;
+    background: #F7A30A;
+}
+
+.header2 .navigation2 .navbar .nav-number {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.header2 .navigation2 .navbar .navbar-nav {
+    margin-right: 60px;
+}
+
+.header2 .navigation2 .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 30px;
+    transition: .35s;
+}
+
+.active{
+    color: #F7A30A !important;
+    font-weight: 600 !important;
+}
+
+.header2 .navigation2 .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #F7A30A;
+}
+
+.dropdown-item {
+    font-weight: 500;
+    padding: 10px;
+    color: #F7A30A;
+    transition: .35s;
+}
+
+.home-inner {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-inner {}
+
+.home-inner .home-text {}
+
+.home-inner .home-text h3 {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.home-inner .home-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.home-inner .home-text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.home-inner .home-text .home-btn {
+    padding: 10px 0px;
+}
+
+.home-inner .home-text .home-btn a {
+    color: #fff;
+    background: #F7A30A;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #F7A30A;
+    transition: .50s;
+
+}
+
+.home-inner .home-text .home-btn a:hover {
+    background: transparent;
+    color: #F7A30A;
+    border: 1px solid #F7A30A;
+}
