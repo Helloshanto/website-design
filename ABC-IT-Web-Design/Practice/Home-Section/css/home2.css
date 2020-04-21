@@ -77,7 +77,7 @@ body {
 
 .header2 {
     background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9)), url(../img/Home-2/bg-intro.jpg);
-    background-size: auto, auto;
+    background-size:cover;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -116,6 +116,10 @@ body {
     text-transform: uppercase;
     margin-left: 30px;
     transition: .35s;
+}
+
+.active{
+    color: #F7A30A !important;
 }
 
 .header2 .navigation2 .navbar .navbar-nav .nav-item .nav-link:hover {
