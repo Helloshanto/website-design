@@ -14,3 +14,18 @@ var wow = new WOW(
     }
   );
   wow.init();
+
+
+
+  
+var typed = new Typed('.info', {
+  strings: [
+    "Home Page 2",
+    "01953332018", 
+    "Helloshanto@outlook.com"
+  ],
+  typeSpeed: 60,
+  backSpeed: 60,
+  loop: true,
+  smartBackspace: true
+});
