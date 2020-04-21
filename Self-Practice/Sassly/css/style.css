@@ -1,0 +1,180 @@
+/* 
+        =================> Color <======================
+        Blue        ==        #0061ff => title
+        navy Blue   ==        #0f2137 => Hover
+        pink        ==        #e03b5b
+        gray        ==        #7a7f83 => use all peragraph
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16PX;
+    color: #7a7f83;
+    font-weight: 400;
+}
+
+/* HEADER */
+
+/* Navigation stye  */
+
+
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 40px;
+    padding: 10px 5px;
+    transition: .35s;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #0061ff;
+}
+
+.navbar .navbar-nav .nav-item .nav-btn .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    background: #0061ff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    transition: .35s;
+}
+
+.navbar .navbar-nav .nav-item .nav-btn .nav-link:hover {
+    background: #0f2137;
+}
+
+/* Banner */
+.banner {
+    background-image: url(../img/Hero/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.banner-text {
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    color: #0f2137;
+    text-transform: capitalize;
+}
+
+.banner-text p {
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.banner-text a {}
+
+.hero-img {
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* End Banner */
+/* weDo */
+
+.weDo {
+    margin-top: 50px;
+    height: 1000px;
+    background: #f3f8ff;
+}
+
+.weDo-inner {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 16px #00000026;
+    width: 95%;
+    cursor: pointer;
+}
+
+
+
+.weDo-inner:hover p {
+    color: #0f2137;
+}
+
+.weDo-inner img {
+    width: 50px !important;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.weDo-inner h4 {
+    font-size: 26px;
+    color: #0f2137;
+    text-transform: capitalize;
+}
+
+.weDo-inner p {
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    transition: .35s;
+}
+
+.owl-carousel .owl-stage {
+    padding: 50px 0px;
+}
+
+
+
+
+
+.awards {
+    width: 100%;
+}
+
+.award-sections {
+    background-image: url(../img/AWARDS/AWARDS-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 85px 60px;
+    box-shadow: 1px 4px 16px #00000026;
+    margin-top: -200px;
+    border-radius: 13px;
+}
+
+.award-inner-text {}
+
+.award-inner-text h3 {
+    font-size: 36px;
+    color: #0f2137;
+    text-transform: capitalize;
+}
+
+.award-inner-text p {
+    padding: 10px 0px;
+}
+
+.award-inner-text .site-btn {
+    background: #E03B5B;
+    transition: .35s;
+}
+
+.award-inner-text .site-btn:hover {
+    background: #FF6666;
+}
