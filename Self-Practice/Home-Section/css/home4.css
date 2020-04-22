@@ -1,0 +1,308 @@
+/*---------------------------------------------
+Template name:  https://nuxt-jironis.netlify.app/index2/
+Version:        
+Author:         
+Author Email:   
+
+----------------------------------------------*/
+
+/* ###################################
+    Defolut Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Site Custom Css */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+::-moz-selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+button[type=submit] {
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #36324a;
+}
+
+h1,
+.h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h2,
+.h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h3,
+.h3 {
+    font-size: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+
+/* ==========Theme Color========== */
+
+.text-blue {
+    color: #623ED1;
+}
+
+
+/* ###################################
+   END Defolut Site Custom Css
+###################################### */
+
+
+
+/* ###################################
+            HOME PAGE 4 
+###################################### */
+
+
+
+
+/* ========== Header ========== */
+
+
+.header {
+    background-image: url(../img/Home-4/base3.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 15%;
+}
+
+
+
+
+.navigation4 {}
+
+.navigation4 .navbar {
+    line-height: 70px;
+}
+
+.navigation4 .navbar .navbar-nav {}
+
+.navigation4 .navbar .navbar-nav .nav-item {
+    margin-top: -10px;
+    padding-left: 15px;
+}
+
+.dropdown-menu .dropdown-item{
+    font-weight: 600;
+    transition: .35s ease-in;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: #623ED1;
+}
+
+.navigation4 .navbar .navbar-nav .nav-btn {
+    color: #623ED1;
+    background: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    margin-left: 35px;
+    box-shadow: 3px 1px 12px 3px #31333e4a;
+    transition: .35s ease-in;
+}
+
+.navigation4 .navbar .navbar-nav .nav-btn:hover {
+    background: #623ED1;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.navigation4 .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+/* ========== Banner ========== */
+
+.banner-section {
+    padding-top: 125px;
+}
+
+/* =##### Banner Left #####= */
+
+
+.banner-section .banner-left {
+    margin-top: 55px;
+}
+
+.banner-section .banner-left h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.banner-section .banner-left p {}
+
+.banner-section .banner-left .banner-left-btn {}
+
+.banner-section .banner-left .banner-left-btn h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #623ED1;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.banner-section .banner-left .banner-left-btn h4:before {
+    content: '';
+    position: absolute;
+    background: #623ED1;
+    height: 2px;
+    width: 50px;
+    bottom: 0;
+    top: 82%;
+}
+
+
+.banner-section .banner-left .banner-left-btn .button-inner {
+    margin-top: 30px;
+}
+
+.banner-section .banner-left .banner-left-btn .button-inner a {
+    color: #623ED1;
+    background: #fff;
+    background-size: 100%;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: 1px dotted #623ED1;
+    font-size: 20px;
+    transition: .35s ease-in;
+}
+
+.banner-section .banner-left .banner-left-btn .button-inner a:hover {
+    color: #fff;
+    background: #623ED1;
+    border: 1px solid #623ED1;
+    box-shadow: 3px 1px 11px 1px #31333e2b;
+
+}
+
+.banner-section .banner-left .banner-left-btn .button-inner a i {
+    margin-right: 10px;
+}
+
+
+/* =##### Banner Right #####= */
+.banner-section .banner-right {
+    -webkit-animation: bounce 1s ease-in-out .35s infinite alternate;
+    animation: bounce 1s ease-out .35s infinite alternate;
+}
+
+.banner-section .banner-right img {
+    width: 80%;
+    float: right;
+}

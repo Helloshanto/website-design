@@ -7,7 +7,7 @@ Themelink : https://angular.pixelstrap.com/unice/enterprice
 
 
 /* ###################################
-    Global Site Custom Css
+    Defolut Site Custom Css
 ###################################### */
 
 /* FONT*/
@@ -15,58 +15,160 @@ Themelink : https://angular.pixelstrap.com/unice/enterprice
 
 /* Site Custom Css */
 
+/* 1.1: Default CSS */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+::-moz-selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+button[type=submit] {
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #f77ade;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {
+    color: #f77ade;
+}
+
 a,
 a:hover,
+a:active,
 a:focus {
     text-decoration: none;
     outline: none;
 }
 
-ul li {
-    list-style: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #36324a;
 }
 
-.pdtb-100 {
-    padding: 100px 0px;
+h1,
+.h1 {
+    font-size: 50px;
+    line-height: 55px;
 }
 
-.pdtb-50 {
-    padding: 100px 0px;
+h2,
+.h2 {
+    font-size: 40px;
+    line-height: 55px;
 }
 
-.pdb-50 {
-    padding-bottom: 100px;
+h3,
+.h3 {
+    font-size: 30px;
 }
 
-.text-white {
-    color: #fff;
+h4,
+.h4 {
+    font-size: 26px;
 }
 
+h5,
+.h5 {
+    font-size: 20px;
+}
 
-/* ###################################
-    END Global Site Custom Css
-###################################### */
+h6,
+.h6 {
+    font-size: 16px;
+}
 
-
-
-/* ###################################
-     Site Css
-###################################### */
-
-* {
-    margin: 0;
-    padding: 0;
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #4e4e4e;
+    font-weight: 400;
+    line-height: 36px;
 }
 
 
+/* ==========Theme Color========== */
+
+.text-white {
+    color: #fff;
+}
+
+.pdtb-100{
+    padding: 100px 0px;
+}
+
+
+/* ###################################
+   END Defolut Site Custom Css
+###################################### */
+
+
+
+
+
+
+
+
+
+
 /*###################################
-     Home-----1
+            HoMe - 1
 ###################################### */
 
 .header {
@@ -78,7 +180,7 @@ body {
 }
 
 
-/* Nav */
+/*========== Nav ==========*/
 .navigation {
     height: 50px;
     line-height: 50px;
@@ -95,7 +197,7 @@ body {
 }
 
 
-/* Banner */
+/*========== Banner ==========*/
 .banner-section {
     padding: 120px 0px;
 }
@@ -108,6 +210,7 @@ body {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .banner-section .banner-inner p {
@@ -163,8 +266,9 @@ body {
     padding: 20px 20px;
 }
 
-.banner-section.banner-img {
-    animation-iteration-count: infinite;
+.banner-section .banner-img {
+    -webkit-animation: bounce 1s ease-in-out .35s infinite alternate;
+    animation: bounce 1s ease-out .35s infinite alternate;
 }
 
 .banner-section .banner-img img {
@@ -173,7 +277,7 @@ body {
     overflow: hidden;
 }
 
-/* Service */
+/* ==========Service========== */
 
 .service {}
 
@@ -208,6 +312,7 @@ body {
 
 .service .service-section .service-inner img {
     padding-bottom: 30px;
+    animation: rotate-2d 1s linear infinite;
 }
 
 .service .service-section .service-inner h3 {
@@ -220,4 +325,3 @@ body {
     font-size: 16px;
     line-height: 30px;
 }
-
