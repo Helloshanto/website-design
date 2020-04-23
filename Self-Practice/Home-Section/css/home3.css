@@ -155,3 +155,50 @@ body {
     background: #0f2137;
     color: #fff;
 }
+
+/* Service */
+
+.weDo {
+    margin-top: 50px;
+    background: #f3f8ff;
+}
+
+.weDo-inner {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 16px #00000026;
+    width: 95%;
+    cursor: pointer;
+}
+
+
+
+.weDo-inner:hover p {
+    color: #0f2137;
+}
+
+.weDo-inner img {
+    width: 50px !important;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.weDo-inner h4 {
+    font-size: 26px;
+    color: #0f2137;
+    text-transform: capitalize;
+}
+
+.weDo-inner p {
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    transition: .35s;
+}
+
+.owl-carousel .owl-stage {
+    padding: 50px 0px;
+}

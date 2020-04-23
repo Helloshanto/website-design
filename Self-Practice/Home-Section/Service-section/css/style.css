@@ -1,0 +1,459 @@
+/*---------------------------------------------
+1. Template name:  https://nuxt-jironis.netlify.app/index2/
+Version:        
+Author:         
+Author Email:  
+
+/* SERVICE SECTION */
+
+----------------------------------------------*/
+/* ###################################
+    Defolut Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Site Custom Css */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+::-moz-selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+button[type=submit] {
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+    {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #1d1d1d;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* Padding */
+.pdtb {
+    padding: 200px 0px;
+}
+
+.pdb50 {
+    padding-bottom: 50px;
+}
+
+.pdb20 {
+    padding-bottom: 50px;
+}
+
+
+
+/* ###################################
+   END Defolut Site Custom Css
+###################################### */
+
+
+
+/* Home Css */
+
+
+.header {
+    background-image: Url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 0;
+    opacity: .5;
+}
+
+
+.navigation-section .navbar .navbar-brand {
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.navigation-section .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 400;
+    transition: .35s;
+}
+
+.navigation-section .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #F7A30A;
+}
+
+.hero {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero .hero-inner {}
+
+.hero .hero-inner h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero .hero-inner p {
+    font-size: 18px;
+}
+
+.hero a i {
+    background: #F7A30A;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+
+/* ###################################
+   Service Section -1
+###################################### */
+
+.site-color {
+    color: #F7A30A;
+}
+
+.service1 {}
+
+.service1 .section-title {}
+
+.service1 .section-title h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service1 .section-title h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.service1 .section-title p {
+    font-size: 18px;
+}
+
+/* service1-section */
+
+.service1-section {}
+
+.s1active {
+    color: #31333e;
+    background: #F7A30A;
+}
+
+.s1active i {
+    color: #fff !important;
+
+}
+
+.service1-section .service1-inner {
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 11px -7px #31333e;
+    margin-bottom: 30px;
+}
+
+.service1-section .service1-inner i {
+    font-size: 60px;
+    line-height: 100px;
+    color: #F7A30A;
+}
+
+.service1-section .service1-inner h4 {
+    font-weight: 600;
+
+}
+
+.service1-section .service1-inner p {}
+
+/* ###################################
+   END Service Section -1
+###################################### */
+
+/* ------------------------------------------------------------ */
+
+/* ###################################
+   Service Section - 2
+###################################### */
+.service2 {}
+
+.service2 .section-title h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+.service2 .section-title h5{
+        text-transform: uppercase;
+    font-weight: 600;
+}
+.service2 .section-title h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 36px;
+}
+
+.service2-section {}
+
+.service2-section .service2-inner {
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.service2-section .service2-inner .icon {
+    float: left;
+    border: 1px solid #31333e;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: 5px;
+    transition: .35s;
+
+}
+
+
+.service2-section .service2-inner:hover .icon{
+    background:#31333e;
+    color: #fff;
+}
+
+.service2-section .service2-inner h4 {
+    margin-left: 64px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.service2-section .service2-inner p {
+    margin-left: 64px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*Service 3*/
+
+.service3 {}
+
+.service3 .section-title {}
+
+.service3 .section-title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #357fef;
+}
+
+.service3 .section-title p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.service3 .service3-section {}
+
+.service3 .service3-section .service3-inner {
+    background: #fff;
+    box-shadow: 0 0 10px 5px rgba(70, 70, 70, 0.048);
+    padding: 50px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #357fef;
+    transition: .35s;
+}
+
+.service3 .service3-section .service3-inner:hover {
+    margin-top: -10px;
+}
+
+.service3 .service3-section .service3-inner img {
+    padding-bottom: 30px;
+    animation: rotate-2d 1s linear infinite;
+}
+
+.service3 .service3-section .service3-inner h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #357fef;
+}
+
+.service3 .service3-section .service3-inner p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/*Service 4*/
+
+
+.service4 {
+    background: #f3f8ff;
+}
+
+.service4 .weDo-inner {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 16px #00000026;
+    width: 95%;
+    cursor: pointer;
+}
+
+
+
+.service4 .weDo-inner:hover p {
+    color: #0f2137;
+}
+
+.service4 .weDo-inner img {
+    width: 50px !important;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.service4 .weDo-inner h4 {
+    font-size: 26px;
+    color: #0f2137;
+    text-transform: capitalize;
+}
+
+.service4 .weDo-inner p {
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 15px;
+    transition: .35s;
+}
+
+.owl-carousel .owl-stage {
+    padding: 50px 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #e55974;
+}

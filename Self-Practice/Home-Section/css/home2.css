@@ -34,12 +34,52 @@ ul li {
 }
 
 .pdb-50 {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .text-orange {
     color: #F7A30A;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #111111;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+D
+/* Section Title */
+
+.section-title {}
+
+.section-title h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-title h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.section-title p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
 
 
 /* ###################################
@@ -60,11 +100,11 @@ ul li {
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #4e4e4e;
+    color: #343434;
 }
 
 
-/* Header */
+/* ##### Header ##### */
 
 .header2 .container-fluid,
 .header2 .container-lg,
@@ -77,10 +117,11 @@ body {
 
 .header2 {
     background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9)), url(../img/Home-2/bg-intro.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-size: cover;
     height: 100vh;
+    transform: scale(1);
 }
 
 
@@ -119,7 +160,7 @@ body {
     transition: .35s;
 }
 
-.active{
+.active {
     color: #F7A30A !important;
     font-weight: 600 !important;
 }
@@ -184,4 +225,183 @@ body {
     background: transparent;
     color: #F7A30A;
     border: 1px solid #F7A30A;
+}
+
+/* ##### End Header ##### */
+
+/* ##### About ##### */
+
+
+.about {
+    position: relative;
+}
+
+.about:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background: #F7A30A;
+    height: 230px;
+    width: 100%;
+    z-index: -1;
+}
+
+.about-full {
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 6px 8px -9px #31333e;
+}
+
+.about .about-left {}
+
+.about .about-left ul {}
+
+.about .about-left ul li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.about .about-left ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+
+
+/* ##### End About ##### */
+
+/* ##### SERVICE ##### */
+
+.service {
+    background: #F5F3FD;
+}
+
+.service-section {}
+
+.service-section .service-inner {
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 11px -7px #31333e;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.service-section .s-active {
+    color: #31333e;
+    background: #F7A30A;
+}
+
+.service-section .s-active i {
+    color: #fff !important;
+
+}
+
+.service-section .service-inner i {
+    font-size: 60px;
+    line-height: 100px;
+    color: #F7A30A;
+}
+
+.service-section .service-inner h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.service-section .service-inner p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* ##### END SERVICE ##### */
+
+
+/* ##### Work ##### */
+
+.work .container-fluid,
+.work .container-lg,
+.work .container-md,
+.work .container-sm,
+.work .container-xl {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.work {}
+
+.work .section-title {
+    padding: 120px 0px 80px 0px;
+    background: #161616;
+    width: 100% !important;
+}
+
+.work .section-title h3 {
+    color: #fff;
+}
+
+.work .section-title p {
+    color: #fff;
+}
+
+.work .work-section {}
+
+.work .work-section .work-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    transition: .35s;
+}
+
+.work .work-section .work-item:hover .work-item-content {
+    display: table-cell;
+    opacity: 1;
+}
+
+.work .work-section .work-item .work-item-content {
+    background: #F7A30A;
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: .35s;
+}
+
+.work .work-section .work-item .work-item-content h5{
+    color: #fff;
+}
+
+
+
+.work-bg-1 {
+    background-image: url(../img/Home-2/work1.jpg);
+}
+
+.work-bg-2 {
+    background-image: url(../img/Home-2/work2.jpg);
+}
+
+.work-bg-3 {
+    background-image: url(../img/Home-2/work3.jpg);
+}
+
+.work-bg-4 {
+    background-image: url(../img/Home-2/work4.jpg);
+}
+
+.work-bg-5 {
+    background-image: url(../img/Home-2/work5.jpg);
+}
+
+.work-bg-6 {
+    background-image: url(../img/Home-2/work6.jpg);
 }
