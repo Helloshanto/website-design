@@ -1,0 +1,507 @@
+/*---------------------------------------------
+1. Template name:  https://nuxt-jironis.netlify.app/index2/
+Version:        
+Author:         
+Author Email:  
+
+/* SERVICE SECTION */
+
+----------------------------------------------*/
+/* ###################################
+    Defolut Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Site Custom Css */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+::-moz-selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #31333e;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+button[type=submit] {
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+    {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #1d1d1d;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* Padding */
+.pdtbp {
+    padding: 250px 0px;
+}
+
+.pdb50 {
+    padding-bottom: 50px;
+}
+
+.pdb20 {
+    padding-bottom: 50px;
+}
+
+
+
+
+.pdtbp {
+    padding: 100px 0px;
+}
+
+.pdbp50 {
+    padding-bottom: 50px;
+}
+
+.pdbp20 {
+    padding-bottom: 20 0px;
+}
+
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+
+
+
+/* ###################################
+   END Defolut Site Custom Css
+###################################### */
+
+
+
+/* Home Css */
+
+
+.header {
+    background-image: Url(../img/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    z-index: 0;
+    opacity: .5;
+}
+
+
+.navigation-section .navbar .navbar-brand {
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.navigation-section .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 400;
+    transition: .35s;
+}
+
+.navigation-section .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #F7A30A;
+}
+
+.hero {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero .hero-inner {}
+
+.hero .hero-inner h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hero .hero-inner p {
+    font-size: 18px;
+}
+
+.hero a i {
+    background: #F7A30A;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.site-color {
+    color: #FFB400;
+}
+
+
+/* portfolio1 */
+
+.portfolio1 {
+    background: #222222;
+}
+
+.portfolio1 .section-title {
+    color: #fff;
+}
+
+.portfolio1 .section-title h2 {
+    font-weight: 800;
+}
+
+.portfolio1 .section-title p {
+    text-transform: uppercase;
+
+}
+
+.portfolio1 .section-title p::after {
+    position: absolute;
+    content: '';
+    right: 15%;
+    top: 64%;
+    background-color: #FFB400;
+    height: 3px;
+    width: 50px;
+    display: block;
+}
+
+.portfolio1 .section-title p:before {
+    position: absolute;
+    content: '';
+    left: 15%;
+    top: 64%;
+    background-color: #FFB400;
+    height: 3px;
+    width: 50px;
+    display: block;
+}
+
+
+.portfolio1 .pro1-inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: .35s;
+}
+
+.portfolio1 .pro1-inner .pro1-contact {
+    background: #F7A30A;
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: .35s;
+
+}
+
+.portfolio1 .pro1-inner:hover .pro1-contact {
+    opacity: 1;
+}
+
+.pro1-bg-1 {
+    background-image: url(../img/portfolio/pro-1/project-1.jpg);
+}
+
+.pro1-bg-2 {
+    background-image: url(../img/portfolio/pro-1/project-2.jpg);
+}
+
+.pro1-bg-3 {
+    background-image: url(../img/portfolio/pro-1/project-3.jpg);
+}
+
+.pro1-bg-4 {
+    background-image: url(../img/portfolio/pro-1/project-4.jpg);
+}
+
+.pro1-bg-5 {
+    background-image: url(../img/portfolio/pro-1/project-5.jpg);
+}
+
+.pro1-bg-6 {
+    background-image: url(../img/portfolio/pro-1/project-6.jpg);
+}
+
+/* portfolio2  */
+
+
+
+.portfolio2 .section-title {}
+
+.portfolio2 .section-title h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(24, 33, 65, .95);
+}
+
+.portfolio2 .section-title p {
+    font-weight: 400;
+    color: #31333e;
+
+}
+
+.portfolio2 .section-title h5 {
+    margin-left: 70px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.portfolio2 .section-title h5:before {
+    position: absolute;
+    content: '';
+    left: 17px;
+    top: 10px;
+    background-color: rgba(24, 33, 65, .95);
+    height: 3px;
+    width: 50px;
+
+}
+
+
+
+.portfolio2 .pro2-inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: .35s;
+}
+
+.portfolio2 .pro2-inner .pro2-contact {
+    background: rgba(24, 33, 65, .95);
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .35s;
+
+}
+
+.portfolio2 .pro2-inner:hover .pro2-contact {
+    opacity: 1;
+}
+
+.pro2-bg-1 {
+    background-image: url(../img/portfolio/pro-2/port-interior-1.jpg);
+}
+
+.pro2-bg-2 {
+    background-image: url(../img/portfolio/pro-2/port-interior-2.jpg);
+}
+
+.pro2-bg-3 {
+    background-image: url(../img/portfolio/pro-2/port-interior-3.jpg);
+}
+
+.portfolio2 .pro2-inner .pro2-contact {}
+
+.portfolio2 .pro2-inner .pro2-contact h3 {
+    color: #FFB400;
+    text-transform: uppercase;
+}
+
+.portfolio2 .pro2-inner .pro2-contact p {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/* Portfolio 3 */
+
+.portfolio3 .work-section .pro3-inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: .35s;
+}
+
+.portfolio3 .work-section .pro3-inner .pro3-content {
+    background: rgba(0, 0, 0, 0.69);
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    color: #fff;
+    opacity: 0;
+    transition: .35s;
+}
+
+.portfolio3 .work-section .pro3-inner:hover .pro3-content {
+    opacity: 1;
+}
+
+.portfolio3 .work-section .pro3-inner:hover .pro3-content {
+    margin-bottom: 30px;
+}
+
+.portfolio3 .work-section .pro3-inner .pro3-content h4 {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    padding-top: 174px;
+}
+
+.portfolio3 .work-section .pro3-inner .pro3-content p {
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.pro3-nav {
+    margin-left: 24%;
+}
+
+.pro3-nav ul {
+    margin: 0 auto;
+}
+
+.pro3-nav ul li a {
+    color: #fff;
+    padding: 10px 20px;
+    background: #F7A30A;
+    margin-left: 10px;
+    border-radius: 2px;
+    transition: .35s ease-in;
+}
+
+.pro3-nav ul li a:hover{
+    background: #31333e;
+}

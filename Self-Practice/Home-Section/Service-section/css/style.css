@@ -133,7 +133,7 @@ body {
 
 /* Padding */
 .pdtb {
-    padding: 200px 0px;
+    padding: 250px 0px;
 }
 
 .pdb50 {
@@ -307,10 +307,12 @@ body {
     font-weight: 600;
     font-size: 16px;
 }
-.service2 .section-title h5{
-        text-transform: uppercase;
+
+.service2 .section-title h5 {
+    text-transform: uppercase;
     font-weight: 600;
 }
+
 .service2 .section-title h3 {
     font-weight: 600;
     text-transform: uppercase;
@@ -340,8 +342,8 @@ body {
 }
 
 
-.service2-section .service2-inner:hover .icon{
-    background:#31333e;
+.service2-section .service2-inner:hover .icon {
+    background: #31333e;
     color: #fff;
 }
 
@@ -454,6 +456,94 @@ body {
     padding: 50px 0px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
     background: #e55974;
+}
+
+
+
+
+/*Service 5*/
+.service5 .section-title {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.service5 .section-title h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-size: 36px;
+}
+
+.service5 .section-title p {}
+
+.service5 .section-title::before {
+    content: "";
+    position: absolute;
+    background: #FCC557;
+    width: 100px;
+    height: 3px;
+    display: inline-block;
+    bottom: 0;
+    left: 45%;
+    top: 120%;
+}
+
+.service5-inner {
+    background: #fff;
+    border: 1px solid #FDC657;
+    padding: 0px 10px 15px 10px;
+    border-radius: 5px;
+    transition: .35s;
+}
+
+
+
+.service5-inner:hover {
+    box-shadow: 0px 5px 7px 0px #0f213726;
+    cursor: pointer;
+}
+
+.service5-inner:hover h1 {
+    color: #FDC657;
+    line-height: 120px;
+}
+
+.service5-inner h1 {
+    font-size: 120px;
+    font-weight: 800;
+    color: #F4F4F4;
+    line-height: 15px;
+    background: #fff;
+    transition: .35s;
+}
+
+.service5-inner h3 {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.service5-inner p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.service5-inner a {
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: .35s;
+
+}
+
+.service5-inner:hover a {
+    color: #FDC657;
+    margin-left: 20px;
 }
