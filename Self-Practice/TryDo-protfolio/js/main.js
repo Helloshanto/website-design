@@ -1,3 +1,5 @@
+(function ($) {
+    'use strict';
 
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -15,9 +17,8 @@
                 items: 3
             }
         }
-    })
+    });
 
-$('.counter').counterUp({
-    delay: 10,
-    time: 1000
-})
+
+
+})(jQuery);
