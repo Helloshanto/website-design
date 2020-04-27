@@ -1,0 +1,290 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    //CSS
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .navigation .navbar .navbar-nav {
+        padding-top: 0px;
+    }
+
+    .navigation .navbar .navbar-nav .nav-item .nav-link {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .navigation .navbar .navbar-nav .nav-item .sign-up-btn {
+        padding: 2px 9px;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .footer-left img {
+        display: none;
+    }
+
+    footer .footer-left {
+        border-radius: 0px;
+    }
+
+    .footer-right {
+        padding: 159px 40px !important;
+    }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+@media (max-width: 1024px) {
+    .testimonial .test-inner .test-part h4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .section-title p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .section-title {
+        padding-bottom: 10px;
+    }
+
+    .contact .contact-left .contact-form form .form-group .form-control {
+        padding: 20px 0px 20px 15px;
+        margin-top: -5px;
+        font-size: 14px;
+    }
+
+    .footer-left img {
+        display: none;
+    }
+
+    footer .footer-left {
+        border-radius: 0px;
+    }
+
+    .footer-right {
+        padding: 184px 40px !important;
+    }
+
+}
+
+@media(max-width:992px) {
+    .navigation .navbar .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-left: 10px;
+        transition: all .35s ease-in;
+        margin-top: -15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-toggler {
+        border: 1px solid #fffffff0;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        background: linear-gradient(to right, #f61b10, #ef0963);
+    }
+
+    i.fas.fa-bars {
+        color: #fff;
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .navigation .navbar .navbar-nav .nav-item .sign-up-btn {
+        display: none;
+    }
+
+    .about .about-left,
+    .about .about-inner,
+    .fun .fun-count-inner,
+    .contact-left {
+        margin-bottom: 30px;
+    }
+
+    footer .footer-right {
+        margin-top: 0px;
+    }
+
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-toggler {
+        border: 1px solid #fffffff0;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        background: linear-gradient(to right, #f61b10, #ef0963);
+    }
+
+    i.fas.fa-bars {
+        color: #fff;
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .navigation .navbar .navbar-nav .nav-item .sign-up-btn {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+
+    .about .about-left,
+    .about .about-inner,
+    .fun .fun-count-inner,
+    .contact-left {
+        margin-bottom: 30px;
+    }
+
+
+    .section-title h3 {
+        font-size: 40px;
+    }
+
+    footer .footer-right {
+        margin-top: 0px;
+    }
+
+    .testimonial .test-inner .test-part h4 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    footer .footer-right {
+        margin-top: 0px;
+        padding: 40px 30px !important;
+    }
+
+    footer .footer-left {
+        border-radius: 0px;
+        padding: 40px 30px !important;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar-toggler {
+        border: 1px solid #fffffff0;
+    }
+
+    nav.navbar.navbar-expand-lg {
+        background: linear-gradient(to right, #f61b10, #ef0963);
+    }
+
+    i.fas.fa-bars {
+        color: #fff;
+        line-height: 30px;
+        font-size: 25px;
+    }
+
+    .navigation .navbar .navbar-nav .nav-item .sign-up-btn {
+        display: none;
+    }
+
+    .hero {
+        height: 78vh;
+    }
+
+    .hero-content a {
+        padding: 10px 30px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .hero-content p {
+        margin-bottom: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .section-title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .about .about-left,
+    .about .about-inner,
+    .fun .fun-count-inner,
+    .contact-left {
+        margin-bottom: 30px;
+    }
+
+    .section-title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .testimonial .test-inner .test-part img {
+        width: 40%;
+    }
+
+    footer .footer-right {
+        margin-top: 0px;
+        padding: 30px 30px !important;
+    }
+
+    footer .footer-left {
+        border-radius: 0px;
+        padding: 30px 30px !important;
+    }
+
+    .testimonial .test-inner .test-part h4 {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    footer .footer-left a {
+        padding: 15px 20px;
+    }
+
+    div#topcontrol img {
+        width: 91%;
+        padding-right: 77%;
+    }
+
+}
