@@ -1,6 +1,36 @@
 (function ($) {
   'use strict';
 
+	// fixed menu bg change
+	
+	$(window).scroll(function(){
+		var top = $(window).scrollTop();
+		if(top >= 100){
+			$('.header-area').addClass('navbar-fixed');
+		}else{
+			$('.header-area').removeClass('navbar-fixed');
+		}
+	});
+
+	var top = $(window).scrollTop();
+	if(top >= 100){
+		$('.header-area').addClass('navbar-fixed');
+	}else{
+		$('.header-area').removeClass('navbar-fixed');
+	}
+
+	// scroll active menu
+	$('body').scrollspy({ target: '#mainMenu' });
+	
+
+
+
+
+
+
+
+
+
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 30,
