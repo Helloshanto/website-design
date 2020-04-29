@@ -318,7 +318,10 @@ body {
 /* ##### Work ##### */
 
 
-.work {}
+.work {
+    width: 100%;
+    overflow: hidden;
+}
 
 .work .section-title {
     padding: 120px 0px 80px 0px;
