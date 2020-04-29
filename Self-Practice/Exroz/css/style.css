@@ -466,12 +466,13 @@ body {
 .blog .blog-section .blog-inner {
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 30px -15px;
-
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .blog .blog-section .blog-inner img {
     margin-bottom: 20px;
+    width: 100%;
     border-radius: 5px 5px 0px 0px;
 }
 
