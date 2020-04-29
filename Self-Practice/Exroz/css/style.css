@@ -1,0 +1,603 @@
+/* ###################################
+Project :Home Page 2
+Themelink : https://angular.pixelstrap.com/unice/enterprice
+
+###################################### */
+
+
+/* ###################################
+    Global Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Site Custom Css */
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.pdtb-100 {
+    padding: 100px 0px;
+}
+
+.pdtb-50 {
+    padding: 100px 0px;
+}
+
+.pdb-50 {
+    padding-bottom: 50px;
+}
+
+.text-orange {
+    color: #F7A30A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #111111;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+D
+/* Section Title */
+
+.section-title {}
+
+.section-title h5 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section-title h3 {
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.section-title p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+
+
+/* ###################################
+    END Global Site Custom Css
+###################################### */
+
+
+
+/* ###################################
+     Site Css
+###################################### */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #343434;
+}
+
+
+
+/* ##### Header ##### */
+
+.header {
+    background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9)), url(../img/bg-intro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transform: scale(1);
+}
+
+
+.header .navigation {
+    /* padding: 20px 0px; */
+}
+
+.header .navigation .navbar {
+    padding: 0;
+}
+
+.header .navigation .navbar .navbar-brand {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 15px 30px;
+    background: #F7A30A;
+}
+
+.header .navigation .navbar .nav-number {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.header .navigation .navbar .navbar-nav {
+    margin-right: 60px;
+}
+
+.header .navigation .navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 30px;
+    transition: .35s;
+}
+
+.active {
+    color: #F7A30A !important;
+    font-weight: 600 !important;
+}
+
+.header .navigation .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #F7A30A;
+}
+
+.dropdown-item {
+    font-weight: 500;
+    padding: 10px;
+    color: #F7A30A;
+    transition: .35s;
+}
+
+.home-inner {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-inner {}
+
+.home-inner .home-text {}
+
+.home-inner .home-text h3 {
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+.home-inner .home-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.home-inner .home-text p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.home-inner .home-text .home-btn {
+    padding: 10px 0px;
+}
+
+.home-inner .home-text .home-btn a {
+    color: #fff;
+    background: #F7A30A;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #F7A30A;
+    transition: .50s;
+
+}
+
+.home-inner .home-text .home-btn a:hover {
+    background: transparent;
+    color: #F7A30A;
+    border: 1px solid #F7A30A;
+}
+
+
+
+
+/* ##### End Header ##### */
+
+/* ##### About ##### */
+
+
+.about {
+    position: relative;
+}
+
+.about:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background: #F7A30A;
+    height: 230px;
+    width: 100%;
+    z-index: -1;
+}
+
+.about-full {
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 6px 8px -9px #31333e;
+}
+
+.about .about-left {}
+
+.about .about-left ul {}
+
+.about .about-left ul li {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.about .about-left ul li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+
+
+/* ##### End About ##### */
+
+/* ##### SERVICE ##### */
+
+.service {
+    background: #F5F3FD;
+}
+
+.service-section {}
+
+.service-section .service-inner {
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 11px -7px #31333e;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.service-section .s-active {
+    color: #31333e;
+    background: #F7A30A;
+}
+
+.service-section .s-active i {
+    color: #fff !important;
+
+}
+
+.service-section .service-inner i {
+    font-size: 60px;
+    line-height: 100px;
+    color: #F7A30A;
+}
+
+.service-section .service-inner h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.service-section .service-inner p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* ##### END SERVICE ##### */
+
+
+/* ##### Work ##### */
+
+
+.work {}
+
+.work .section-title {
+    padding: 120px 0px 80px 0px;
+    background: #161616;
+    width: 100% !important;
+}
+
+.work .section-title h3 {
+    color: #fff;
+}
+
+.work .section-title p {
+    color: #fff;
+}
+
+.work .work-section {}
+
+.work .work-section .work-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: table;
+    width: 100%;
+    cursor: pointer;
+    transition: .35s;
+}
+
+.work .work-section .work-item:hover .work-item-content {
+    display: table-cell;
+    opacity: 1;
+}
+
+.work .work-section .work-item .work-item-content {
+    background: #F7A30A;
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: .35s;
+}
+
+.work .work-section .work-item .work-item-content h5 {
+    color: #fff;
+}
+
+
+
+.work-bg-1 {
+    background-image: url(../img/work1.jpg);
+}
+
+.work-bg-2 {
+    background-image: url(../img/work2.jpg);
+}
+
+.work-bg-3 {
+    background-image: url(../img/work3.jpg);
+}
+
+.work-bg-4 {
+    background-image: url(../img/work4.jpg);
+}
+
+.work-bg-5 {
+    background-image: url(../img/work5.jpg);
+}
+
+.work-bg-6 {
+    background-image: url(../img/work6.jpg);
+}
+
+
+
+/* ##### Features ##### */
+.features {}
+
+.features .features-section {}
+
+.features .features-section .features-left {}
+
+.features .features-section .features-left .features-header {
+    margin-bottom: 30px;
+}
+
+.features .features-section .features-left .features-header h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.features .features-section .features-left .features-header p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.features .features-section .features-left .features-inner {}
+
+.features .features-section .features-left .features-inner .features-part {
+    padding: 10px 0px;
+}
+
+.features .features-section .features-left .features-inner .features-part .icon {
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    margin-top: 8px;
+
+}
+
+.features .features-section .features-left .features-inner .features-part .icon i {
+    font-size: 35px;
+    background: #021D38;
+    color: #F7A30A;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+.features .features-section .features-left .features-inner .features-part .features-part-inner {
+    overflow: hidden;
+}
+
+.features .features-section .features-left .features-inner .features-part .features-part-inner h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.features .features-section .features-left .features-inner .features-part .features-part-inner p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/* ##### Blog ##### */
+
+.blog {
+    background: #F5F3FD;
+}
+
+.blog .blog-section {}
+
+.blog .blog-section .blog-inner {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 30px -15px;
+
+    border-radius: 5px;
+}
+
+.blog .blog-section .blog-inner img {
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.blog .blog-section .blog-inner .blog-inner-content {
+    padding: 10px 20px;
+}
+
+.blog .blog-section .blog-inner .blog-inner-content h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #021D38;
+}
+
+.blog .blog-section .blog-inner .blog-inner-content h6 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.blog .blog-section .blog-inner .blog-inner-content p {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+/* ##### Foter ##### */
+
+.footer {
+    background: linear-gradient(rgba(3, 6, 28, 0.918), rgba(3, 6, 28, 0.945)), url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.footer .footer-about {}
+
+.footer .footer-about h4 {
+    color: #F7A30A;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+
+}
+
+.footer .footer-about p {
+    color: #fff;
+}
+
+.footer-menu {}
+
+.footer-menu h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-menu ul li {}
+
+.footer-menu ul li a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all .35s;
+}
+
+.footer-menu ul li a:hover {
+    color: #F7A30A;
+}
+
+.footer-post {}
+
+.footer-post h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-post a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all .35s;
+}
+
+.footer-post a:hover {
+    color: #F7A30A;
+}
+
+.footer-contact {
+    color: #fff;
+    float: right;
+}
+
+.footer-contact h4 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-contact ul li {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+.footer-contact ul li i {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    background: #F7A30A;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.footer-bottom {
+    background: #070D25;
+    color: #fff;
+}
+
+.footer-bottom p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 0;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
