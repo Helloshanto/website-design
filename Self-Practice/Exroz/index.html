@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -7,52 +7,53 @@
     <title>EXROZ</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container-fluid p-0">
             <!-- Start NAV -->
-            <div class="navigation">
+            <div class="navigation fixed-top">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="Home2.html">Exroz</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"><i class="fas fa-hamburger"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
-                            <li class="nav-item"><a class="nav-link " href="#">Pricing</a></li>
-                            <li class="nav-item"><a class="nav-link " href="#">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link " href="#">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Service">Service</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#work">work</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link " href="#footer">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            <div class="home-inner ">
+            <div class="home-inner">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                         <div class="home-text text-center">
-                            <h3 class="text-orange">We are Trusted</h3>
-                            <h1>EXPERT CONSTRUCTION</h1>
-                            <p>We do it with all my heart and we are happy to help you increase <br> your business and
+                            <h3 class="text-orange wow animate__animated animate__fadeInDown " data-wow-duration=".5s" data-wow-delay=".5s">We are Trusted</h3>
+                            <h1 class="wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="1s">EXPERT CONSTRUCTION</h1>
+                            <p class="wow animate__animated animate__fadeInDown " data-wow-duration="1.5s" data-wow-delay="1.5s">We do it with all my heart and we are happy to help you increase <br> your business and
                                 income</p>
-                            <div class="home-btn">
-                                <a href="#">Learn More</a>
+                            <div class="home-btn wow animate__animated animate__fadeInDown " data-wow-duration="2s" data-wow-delay="2s">
+                                <a href="#" >Learn More</a>
                                 <a href="#">Contact Us</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> <!-- End row -->
             </div>
-        </div>
+        </div><!-- End Container fluid -->
     </header>
     <!-- END HEADER -->
     <!-- About Section -->
@@ -61,7 +62,7 @@
             <div class="about-full">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div class="about-left">
+                        <div class="about-left wow animate__animated animate__fadeInLeft"  data-wow-duration="1s" data-wow-delay="1s">
                             <div class="section-title">
                                 <h3>Know More <span class="text-orange"> About Us </span></h3>
                                 <h5>We are are professional</h5>
@@ -82,22 +83,22 @@
                         </div> <!-- ========== End About Left ========== -->
                     </div><!-- ========== End Col-lg-l6 ========== -->
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div class="about-right">
+                        <div class="about-right wow animate__animated animate__fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s"> 
                             <img src="img/about.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                </div>
+                </div> <!-- End row -->
             </div>
-        </div>
+        </div><!-- End Container -->
     </div>
     <!-- ========== Service ========== -->
-    <div class="service pdtb-100 " id="service">
+    <div class="service pdtb-100 " id="Service">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="section-title text-center pdb-50">
-                        <h3>Construction <span class="text-orange ">Service</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolore vel voluptatum libero<br>
+                        <h3 class="wow animate__animated animate__fadeInDown " data-wow-duration="2s" data-wow-delay="1s">Construction <span class="text-orange ">Service</span></h3>
+                        <p class="wow animate__animated animate__fadeInDown " data-wow-duration="2s" data-wow-delay="1.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit dolore vel voluptatum libero<br>
                             consectetur accusamus! Ipsum qui veniam nemo nisi.</p>
                     </div>
                 </div>
@@ -105,7 +106,7 @@
             <div class="service-section">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="service-inner text-center">
+                        <div class="service-inner text-center wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay=".5s">
                             <i class="fas fa-building"></i>
                             <h4>Bilding</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam maxime
@@ -113,7 +114,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class=" service-inner text-center s-active">
+                        <div class=" service-inner text-center s-active wow animate__animated animate__fadeInLeft " data-wow-duration="1.s" data-wow-delay="1s">
                             <i class="fas fa-dumbbell"></i>
                             <h4>Architecture</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam maxime
@@ -121,7 +122,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="service-inner text-center">
+                        <div class="service-inner text-center wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">
                             <i class="fas fa-wrench"></i>
                             <h4>Renovation</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quisquam maxime
@@ -129,8 +130,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> <!-- End row -->
+        </div><!-- End Container -->
     </div>
     <!-- ==========  END SERVICE ========== -->
     <!-- ==========  Work ========== -->
@@ -139,23 +140,23 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="section-title text-center">
-                        <h3>Our <span class="text-orange ">Fantastic</span> Work</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolore vel voluptatum libero<br>
+                        <h3 class="wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="1s">Our <span class="text-orange ">Fantastic</span> Work</h3>
+                        <p class="wow animate__animated animate__fadeInDown " data-wow-duration="1.5s" data-wow-delay="1.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit dolore vel voluptatum libero<br>
                             consectetur accusamus! Ipsum qui veniam nemo nisi.</p>
                     </div>
                 </div>
-            </div>
+            </div><!-- End row -->
             <div class="work-section">
-                <div class="row no-gutters">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                        <div class="work-item work-bg-1">
+                <div class="row no-gutters p-0">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="work-item work-bg-1 ">
                             <div class="work-item-content">
                                 <h5>Building Bridge</h5>
                                 <p>Construction</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                         <div class="work-item work-bg-2">
                             <div class="work-item-content">
                                 <h5>Building Bridge</h5>
@@ -163,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 ">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                         <div class="work-item work-bg-3">
                             <div class="work-item-content">
                                 <h5>Building Bridge</h5>
@@ -171,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                         <div class="work-item work-bg-4">
                             <div class="work-item-content">
                                 <h5>Building Bridge</h5>
@@ -179,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
                         <div class="work-item work-bg-5">
                             <div class="work-item-content">
                                 <h5>Building Bridge</h5>
@@ -187,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="work-item work-bg-6">
                             <div class="work-item-content">
                                 <h5>Building Bridge</h5>
@@ -195,9 +196,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> <!-- End row -->
             </div>
-        </div>
+        </div><!-- End Container -->
     </div>
     <!-- ==========  END Work ========== -->
     <!-- ==========  Features ========== -->
@@ -206,24 +207,25 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="section-title text-center pdb-50">
-                        <h3>Our<span class="text-orange"> Campany </span>Features</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit dolore vel voluptatum libero<br>
+                        <h3 class="wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="1s">Our<span class="text-orange"> Campany </span>Features</h3>
+                        <p class="wow animate__animated animate__fadeInDown " data-wow-duration="1.5s" data-wow-delay="1.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit dolore vel voluptatum libero<br>
                             consectetur accusamus! Ipsum qui veniam nemo nisi.</p>
                     </div>
                 </div>
             </div>
+            <!--End Row-->
             <div class="features-section">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="features-left">
-                            <div class="features-header">
+                            <div class="features-header wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay=".5">
                                 <h4>We always give the best</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sed quo
                                     laudantium quae soluta magni architecto, voluptate quasi quidem error, dolorum
                                     accusamus modi quaerat eos autem.</p>
                             </div>
                             <div class="features-inner">
-                                <div class="features-part">
+                                <div class="features-part wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="1s">
                                     <div class="icon">
                                         <i class="fas fa-fire"></i>
                                     </div>
@@ -233,7 +235,7 @@
                                             fuga repellendus similique quod obcaecati.</p>
                                     </div>
                                 </div>
-                                <div class="features-part">
+                                <div class="features-part wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="1.5s">
                                     <div class="icon">
                                         <i class="fas fa-fire"></i>
                                     </div>
@@ -243,7 +245,7 @@
                                             fuga repellendus similique quod obcaecati.</p>
                                     </div>
                                 </div>
-                                <div class="features-part">
+                                <div class="features-part wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="2s">
                                     <div class="icon">
                                         <i class="fas fa-fire"></i>
                                     </div>
@@ -253,7 +255,7 @@
                                             fuga repellendus similique quod obcaecati.</p>
                                     </div>
                                 </div>
-                                <div class="features-part">
+                                <div class="features-part wow animate__animated animate__fadeInDown " data-wow-duration="1s" data-wow-delay="2.5s">
                                     <div class="icon">
                                         <i class="fas fa-fire"></i>
                                     </div>
@@ -272,8 +274,10 @@
                         </div>
                     </div>
                 </div>
+                <!--End Row-->
             </div>
         </div>
+        <!--End Container-->
     </section>
     <!-- ==========  End Features ========== -->
     <!-- ==========  Blog ========== -->
@@ -287,11 +291,11 @@
                             consectetur accusamus! Ipsum qui veniam nemo nisi. </p>
                     </div>
                 </div>
-            </div>
+            </div><!-- End row -->
             <div class="blog-section">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="blog-inner">
+                        <div class="blog-inner  wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay=".5s">
                             <img src="img/blog1.jpg" alt="" class="img-fluid">
                             <div class="blog-inner-content">
                                 <h4> Great results are charming and beautiful</h4>
@@ -302,7 +306,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="blog-inner">
+                        <div class="blog-inner  wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay="1s">
                             <img src="img/blog2.jpg" alt="" class="img-fluid">
                             <div class="blog-inner-content">
                                 <h4> Great results are charming and beautiful</h4>
@@ -313,7 +317,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                        <div class="blog-inner">
+                        <div class="blog-inner  wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay="1.5s">
                             <img src="img/blog3.jpg" alt="" class="img-fluid">
                             <div class="blog-inner-content">
                                 <h4> Great results are charming and beautiful</h4>
@@ -323,17 +327,17 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div><!-- End row -->
+            </div><!-- End Blog Section -->
+        </div><!-- End Container -->
     </section>
     <!-- ==========  End Blog ========== -->
     <!-- ==========  Footer ========== -->
-    <footer class="footer pdtb-100">
+    <footer class="footer pdtb-100" id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <div class="footer-about">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <div class="footer-about wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay=".5s">
                         <h4>Exroz</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni provident voluptatem,
                             consequatur porro alias.</p>
@@ -341,20 +345,20 @@
                             consequatur porro alias.</p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <div class="footer-menu">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                    <div class="footer-menu wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay="1.5s">
                         <h4>Quick Link</h4>
                         <ul>
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">Picing</a></li>
                             <li><a href="#">Services</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="#Blog">Blog</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                    <div class="footer-post">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                    <div class="footer-post wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay="2s">
                         <h4>Recent Post</h4>
                         <a href="#">Hello world</a>
                         <a href="#">Hello world 01</a>
@@ -363,8 +367,8 @@
                         <a href="#">Hello world 04</a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                    <div class="footer-contact">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+                    <div class="footer-contact wow animate__animated animate__fadeInLeft"  data-wow-duration="1.5s" data-wow-delay="2.5s">
                         <h4>Contact us</h4>
                         <ul>
                             <li> <i class="fas fa-mobile-alt"></i>01953332018</li>
@@ -373,8 +377,8 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div><!-- End row -->
+        </div><!-- End Container -->
     </footer>
     <div class="footer-bottom text-center">
         <div class="container">
@@ -382,11 +386,10 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <p>Copyright © All Right Reserved</p>
                 </div>
-            </div>
-        </div>
+            </div><!-- End row -->
+        </div><!-- End Container -->
     </div>
-
-
+    <!-- ========== End Footer ========== -->
 
 
 

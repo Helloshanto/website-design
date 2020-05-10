@@ -1,18 +1,32 @@
-/* ###################################
-Project :Home Page 2
-Themelink : https://angular.pixelstrap.com/unice/enterprice
+/* ===================================================
+      Template Name: EXRROZ
+      Template URI: http://helloshanto.com/Practice/Exroz/
+      Theme-link : https://angular.pixelstrap.com/unice/enterprice
+      Description:
+      Author: 
+      Author URI: 
+      Version: 1.0
+=================================================== */
 
-###################################### */
+
+/* CSS Index
+-----------------------------------------------------
+           01. Template Default CSS
 
 
-/* ###################################
-    Global Site Custom Css
-###################################### */
+*/
+
+
+/* ==================================================
+          Google Fonts
+================================================== */
 
 /* FONT*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* Site Custom Css */
+/* ###################################
+    Global Site Custom Css
+###################################### */
 
 a,
 a:hover,
@@ -103,9 +117,14 @@ body {
     color: #343434;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
-/* ##### Header ##### */
+/* ###################################
+            02.Header
+###################################### */
 
 .header {
     background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9)), url(../img/bg-intro.jpg);
@@ -113,13 +132,9 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    transform: scale(1);
 }
 
-
-.header .navigation {
-    /* padding: 20px 0px; */
-}
+.header .navigation {}
 
 .header .navigation .navbar {
     padding: 0;
@@ -169,7 +184,7 @@ body {
 }
 
 .home-inner {
-    height: 800px;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -210,7 +225,6 @@ body {
     border-radius: 5px;
     border: 1px solid #F7A30A;
     transition: .50s;
-
 }
 
 .home-inner .home-text .home-btn a:hover {
@@ -221,10 +235,9 @@ body {
 
 
 
-
-/* ##### End Header ##### */
-
-/* ##### About ##### */
+/* ###################################
+            03.About
+###################################### */
 
 
 .about {
@@ -267,9 +280,10 @@ body {
 
 
 
-/* ##### End About ##### */
 
-/* ##### SERVICE ##### */
+/* ###################################
+            04.Service
+###################################### */
 
 .service {
     background: #F5F3FD;
@@ -312,10 +326,10 @@ body {
     line-height: 26px;
 }
 
-/* ##### END SERVICE ##### */
 
-
-/* ##### Work ##### */
+/* ###################################
+            05.Work
+###################################### */
 
 
 .work {
@@ -397,8 +411,9 @@ body {
 }
 
 
-
-/* ##### Features ##### */
+/* ###################################
+            06.Features
+###################################### */
 .features {}
 
 .features .features-section {}
@@ -455,7 +470,9 @@ body {
     line-height: 26px;
 }
 
-/* ##### Blog ##### */
+/* ###################################
+            07.Blog
+###################################### */
 
 .blog {
     background: #F5F3FD;
@@ -499,7 +516,9 @@ body {
     line-height: 26px;
 }
 
-/* ##### Foter ##### */
+/* ###################################
+            07.Footer
+###################################### */
 
 .footer {
     background: linear-gradient(rgba(3, 6, 28, 0.918), rgba(3, 6, 28, 0.945)), url(../img/footer.jpg);

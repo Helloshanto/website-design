@@ -1,0 +1,351 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    //CSS
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .section-title h3 {
+        font-size: 38px;
+    }
+
+    .home-inner {
+        height: 84vh;
+    }
+
+    .blog .blog-section .blog-inner .blog-inner-content h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar {
+        background: #070D25;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+    }
+
+    .navbar .navbar-nav {
+        padding: 20px 0px !important;
+        width: 100%;
+        background: #070D25;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        margin-right: 30px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler .navbar-toggler-icon:focus {
+        outline: none;
+    }
+
+    .navbar-toggler .navbar-toggler-icon i {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+
+    .home-inner {
+        height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .section-title h3 {
+        font-size: 38px;
+    }
+
+    .home-inner .home-text h1 {
+        font-size: 55px;
+    }
+
+    .about-right {
+        text-align: center;
+    }
+
+    .features .features-section .features-left .features-header {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .footer-about,
+    .footer-menu,
+    .footer-post,
+    .footer-contact {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu h4,
+    .footer-post h4,
+    .footer-contact h4 {
+        margin-bottom: 15px;
+    }
+
+    .footer-contact ul li {
+        font-size: 18px;
+    }
+
+    .footer-menu ul li a {
+        padding: 5px 0px;
+    }
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    //CSS
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        background: #070D25;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+    }
+
+    .navbar .navbar-nav {
+        padding: 20px 0px !important;
+        width: 100%;
+        background: #070D25;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        margin-right: 30px;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler .navbar-toggler-icon:focus {
+        outline: none;
+    }
+
+    .navbar-toggler .navbar-toggler-icon i {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+
+    .home-inner {
+        height: 100vh;
+    }
+
+    .section-title h3 {
+        font-size: 38px;
+    }
+
+    .home-inner .home-text h1 {
+        font-size: 55px;
+    }
+
+    .about-right {
+        text-align: center;
+    }
+
+    .features .features-section .features-left .features-header {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .footer-about,
+    .footer-menu,
+    .footer-post,
+    .footer-contact {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu h4,
+    .footer-post h4,
+    .footer-contact h4 {
+        margin-bottom: 15px;
+    }
+
+    .footer-contact ul li {
+        font-size: 15px;
+    }
+
+    .footer-menu ul li a {
+        padding-bottom: 10px;
+    }
+
+    .footer-contact ul li i {
+        margin-right: 6px;
+    }
+
+    .footer-contact ul li i {
+        color: #fff;
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        background: #070D25;
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+    }
+
+    .navbar .navbar-nav {
+        padding: 20px 0px !important;
+        width: 100%;
+        background: #070D25;
+    }
+
+    .navbar-toggler {
+        border: 1px solid transparent !important;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        margin-right: 30px;
+    }
+
+    .navbar-toggler .navbar-toggler-icon:focus {
+        outline: none;
+    }
+
+    .navbar-toggler .navbar-toggler-icon i {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+    }
+
+    .home-inner {
+        height: 100vh;
+    }
+
+    .section-title h3 {
+        font-size: 38px;
+    }
+
+    .home-inner .home-text h3 {
+        font-size: 25px;
+    }
+
+    .home-inner .home-text p {
+        font-size: 12px;
+    }
+
+    .home-inner .home-text h1 {
+        font-size: 40px;
+    }
+
+    .about-right {
+        text-align: center;
+    }
+
+    .features .features-section .features-left .features-header {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer-about,
+    .footer-menu,
+    .footer-post,
+    .footer-contact {
+        margin-bottom: 30px;
+    }
+
+    .footer-menu h4,
+    .footer-post h4,
+    .footer-contact h4 {
+        margin-bottom: 15px;
+    }
+
+    .footer-contact ul li {
+        font-size: 15px;
+    }
+
+    .footer-menu ul li a {
+        padding-bottom: 10px;
+    }
+
+    .footer-contact ul li i {
+        margin-right: 6px;
+    }
+
+    .footer-contact ul li i {
+        color: #fff;
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer .footer-about {
+        text-align: center;
+    }
+
+}
