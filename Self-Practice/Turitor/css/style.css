@@ -1,0 +1,858 @@
+/*---------------------------------------------
+Template name:  Turtor
+Version:        
+Author:         
+Author Email:   
+Redesign : Shanto
+
+----------------------------------------------*/
+
+/* ###################################
+    Defolut Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@400;500&display=swap');
+
+/* Site Custom Css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+button[type=submit] {
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+h1,
+.h1 {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+h2,
+.h2 {
+    font-size: 40px;
+    line-height: 55px;
+}
+
+h3,
+.h3 {
+    font-size: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+
+p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+/* Padding */
+
+.pdtb-150 {
+    padding: 150px 0px;
+}
+
+.pdtb-100 {
+    padding: 100px 0px;
+}
+
+.pdtb-50 {
+    padding: 50px 0px;
+}
+
+.pdt-50 {
+    padding-top: 50px;
+}
+
+.pdb-50 {
+    padding-bottom: 50px;
+}
+
+.pdb-20 {
+    padding-bottom: 20px;
+}
+
+.pdtb-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+
+
+
+/* ==========Theme Color========== */
+
+.blue-text {
+    color: #0150E1;
+}
+
+.yello-text {
+    color: #FFCC00;
+}
+
+.green-text {
+    color: #0BCC86;
+}
+
+.red-text {
+    color: #FA4243;
+}
+
+
+.blue-bg {
+    background-color: #0150E1;
+}
+
+.yellow-bg {
+    background-color: #FFCC00;
+}
+
+.green-bg {
+    background-color: #0BCC86;
+}
+
+.red-bg {
+    background-color: #FA4243;
+}
+
+
+/* ----------------------------
+            Header
+------------------------------ */
+
+/* Headet tp bar */
+.header-top-bar {
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+.header-top-bar .bg {
+    display: inline-block;
+    float: left;
+    height: 2px;
+    width: 14.28%;
+}
+
+/* End Header top Bar */
+
+/* Navigation */
+
+header {}
+
+header .navigation {
+    padding: 15px 0px;
+}
+
+header .navigation .navbar-nav {}
+
+header .navigation .navbar-nav .nav-item {
+    margin-right: 25px;
+}
+
+header .navigation .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+header .navigation .navbar-nav .nav-item .nav-link:hover {
+    color: #0150E1;
+}
+
+
+header .navigation .form-inline {}
+
+header .navigation .form-inline .form-control {
+    border: none;
+    border-bottom: 1px solid #F2F7FC;
+    position: relative;
+    width: 90%;
+}
+
+header .navigation .form-inline .form-control:focus {}
+
+header .navigation .form-inline button {
+    background: transparent;
+    position: absolute;
+    right: 21%;
+}
+
+header .navigation .form-inline button i {
+    font-size: 14px;
+    color: #0150E1;
+}
+
+header .navigation .login-btn {
+    background: #FA3F40;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+header .navigation .login-btn a {
+    color: #fff;
+    font-size: 14px;
+}
+
+header .navigation .login-btn a i {
+    margin-right: 10px;
+}
+
+
+
+/* ----------------------------
+        02.Hero Area
+------------------------------ */
+
+.hero {}
+
+.hero #carouselExampleIndicators {}
+
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.carousel-item {}
+
+.carousel-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+
+.hero-inner {
+    padding-bottom: 16%;
+}
+
+.hero-inner h4 {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.hero-inner h1 {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.hero-inner p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.hero-inner .hero-inner-btn {}
+
+.hero-inner .hero-inner-btn a {
+    font-size: 15px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.hero-inner .hero-inner-btn .Hbtn1 {
+    margin-right: 20px;
+    background-image: linear-gradient(120deg, #0150E1, rgb(27, 101, 238));
+}
+
+.hero-inner .hero-inner-btn .Hbtn1:hover {
+    background-image: linear-gradient(120deg, rgb(27, 101, 238), #0150E1);
+}
+
+.hero-inner .hero-inner-btn .Hbtn2 {
+    background-image: linear-gradient(120deg, #F5B017, #FD9004);
+}
+
+.hero-inner .hero-inner-btn .Hbtn2:hover {
+    background-image: linear-gradient(120deg, #FD9004, #F5B017);
+}
+
+.hero-inner .hero-inner-btn a:hover {}
+
+
+
+
+
+
+/* ----------------------------
+        03.Hero Area
+------------------------------ */
+
+.brand {
+    background: #F2F7FC;
+}
+
+.brand .brand-inner img {
+    margin: 0px 80px;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: .35s linear;
+}
+
+.brand .brand-inner img:hover {
+    filter: grayscale(0);
+}
+
+
+/* ----------------------------
+        03.Service
+------------------------------ */
+
+.service {}
+
+.service .service-inner {
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.service .service-inner img {
+    margin-bottom: 20px;
+}
+
+.service .service-inner h4 {
+    font-size: 22px;
+    line-height: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.service .service-inner p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.sv-1 {
+    background: #0150E1;
+    background-image: url(../img/feature_bg.png);
+    transition: all .35s;
+}
+
+.sv-1:hover {
+    background: #F5B017;
+    background-image: url(../img/feature_bg.png);
+}
+
+.sv-2 {
+    background: #0BCC86;
+    background-image: url(../img/feature_bg.png);
+    transition: all .35s;
+}
+
+.sv-2:hover {
+    background: #FA4243;
+    background-image: url(../img/feature_bg.png);
+}
+
+.sv-3 {
+    background: #F5B017;
+    background-image: url(../img/feature_bg.png);
+    transition: all .35s;
+}
+
+.sv-3:hover {
+    background: #0150E1;
+    background-image: url(../img/feature_bg.png);
+}
+
+.sv-4 {
+    background: #FA4243;
+    background-image: url(../img/feature_bg.png);
+    transition: all .35s;
+}
+
+.sv-4:hover {
+    background: #0BCC86;
+    background-image: url(../img/feature_bg.png);
+}
+
+
+/* ----------------------------
+        001.Section-title
+------------------------------ */
+.section-title {}
+
+.section-title h6 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.section-title h3 {
+    font-size: 48px;
+    line-height: 63px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.section-title p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #555555;
+}
+
+
+/* ----------------------------
+        05.Course
+------------------------------ */
+.course {}
+
+.course .course-inner {
+    background: #fff;
+    box-shadow: 1px 1px 10px -4px #4e4e4e5c;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.course .course-inner img {
+    position: relative;
+}
+
+.course .course-inner>span {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 18px;
+    left: 20px;
+}
+
+.course .course-inner h3 {
+    font-size: 26px;
+    overflow: hidden;
+    line-height: 32px;
+    padding: 20px 20px;
+    font-weight: 800;
+    color: #555555;
+}
+
+.course .course-inner .course-fotter {
+    padding: 0px 20px 20px 20px;
+}
+
+.course .course-inner .course-fotter .Course-review {}
+
+.course .course-inner .course-fotter .Course-review i {
+    color: #F5B017;
+    font-size: 14px;
+}
+
+.course .course-inner .course-fotter .Course-review span {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #7665FF;
+}
+
+.course .course-inner .course-fotter .course-price {
+    margin-top: 1px;
+}
+
+.course .course-inner .course-fotter .course-price h5 {
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #555555;
+}
+
+/* ----------------------------
+        04.discover Area
+------------------------------ */
+
+.discover {
+    background: #7665FF;
+    background-image: url(../img/funfact_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.discover .disover-inner {}
+
+.discover .disover-inner h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 63px;
+    color: #fff;
+}
+
+.discover .disover-inner p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.discover .disover-inner .discover-inner-btn {}
+
+.discover .disover-inner .discover-inner-btn a {
+    font-size: 15px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.discover .disover-inner .discover-inner-btn a i {
+    margin-right: 5px;
+}
+
+.discover .disover-inner .discover-inner-btn .Dbtn1 {
+    margin-right: 20px;
+    background-image: linear-gradient(120deg, #0150E1, rgb(27, 101, 238));
+}
+
+.discover .disover-inner .discover-inner-btn .Dbtn1:hover {
+    background-image: linear-gradient(120deg, #FA4243, #FA4243);
+}
+
+.discover .disover-inner .discover-inner-btn .Dbtn2 {
+    background-image: linear-gradient(120deg, #F5B017, #FD9004);
+}
+
+.discover .disover-inner .discover-inner-btn .Dbtn2:hover {
+    background-image: linear-gradient(120deg, #FA4243, #FA4243);
+}
+
+.discover .disover-inner .discover-inner-btn a:hover {}
+
+
+/* ----------------------------
+        05.Count Area
+------------------------------ */
+
+.conter {}
+
+.conter .counter-inner {
+    background: #09CB82;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: -80px;
+}
+
+.conter .counter-inner .counter-part {}
+
+.conter .counter-inner .counter-part h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.conter .counter-inner .counter-part p {
+    color: #fff;
+}
+
+/* ----------------------------
+        06.Testimonial
+------------------------------ */
+
+.test-border1 {
+    border-top: 5px solid #0150E1;
+}
+
+.test-border2 {
+    border-top: 5px solid #09CB82;
+}
+
+.test-border3 {
+    border-top: 5px solid #FA4243;
+}
+
+
+.testimonial {}
+
+.testimonial .testimonial-inner {
+    padding: 30px;
+    height: 395px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -4px #4e4e4e5c;
+}
+
+.testimonial .testimonial-inner .testimonial-message {
+    border-bottom: 1px solid #333333;
+}
+
+.testimonial .testimonial-inner .testimonial-message .testimonial-review {
+    padding-bottom: 15px;
+}
+
+.testimonial .testimonial-inner .testimonial-message h4 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.testimonial .testimonial-inner .testimonial-message p {}
+
+.testimonial .testimonial-inner .testimonial-info {
+    padding-top: 15px;
+}
+
+.testimonial .testimonial-inner .testimonial-info h5 {}
+
+.testimonial .testimonial-inner .testimonial-info p {}
+
+.testimonial .testimonial-inner .testimonial-info img {
+    box-shadow: 1px 1px 10px -4px #4e4e4e5c;
+    border-radius: 50%;
+    border: 2px solid #0150E1;
+}
+
+/* ----------------------------
+        07.reg
+------------------------------ */
+
+.reg {}
+
+.reg .reg-left {
+    border-right: 1px solid #333333;
+    padding: 10px 20px;
+}
+
+.reg .reg-left h3,
+.reg .reg-right h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.reg .reg-left p,
+.reg .reg-right p {
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.reg .reg-left .reg-left-btn {
+    background-image: linear-gradient(120deg, #0150E1, rgb(27, 101, 238));
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.reg .reg-left .reg-left-btn i,
+.reg .reg-right .reg-right-btn i {
+    margin-right: 5px;
+}
+
+.reg .reg-left .reg-left-btn:hover {
+    background-image: linear-gradient(120deg, rgb(27, 101, 238), #0150E1);
+}
+
+
+
+.reg .reg-right {
+    padding: 10px 20px;
+}
+
+.reg .reg-right .reg-right-btn {
+    background-image: linear-gradient(120deg, #FA4243, #FA4243);
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.reg .reg-right .reg-right-btn:hover {
+    background-image: linear-gradient(120deg, #FA4243, #FA4243);
+}
+
+
+/* ----------------------------
+        08.Blog
+------------------------------ */
+
+.blog {}
+
+.blog .blog-inner {
+    background: #fff;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, .06);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    transition: all .35s;
+    overflow: hidden;
+
+}
+
+.blog .blog-inner img {
+    overflow: hidden;
+}
+
+.blog .blog-inner:hover img {
+    transform: scale(1.1) rotate(3deg);
+    transition: all 0.4s ease;
+}
+
+
+
+
+/* .blog .blog-inner:hover {
+    margin-top: -10px;
+} */
+
+.blog .blog-inner .date-ctg {}
+
+.blog .blog-inner .date-ctg ul {}
+
+.blog .blog-inner .date-ctg ul li {
+    list-style-type: disc;
+    float: left;
+    padding-right: 40px;
+}
+
+.blog .blog-inner h3 {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: all 0.35s ease-in;
+}
+
+.blog .blog-inner a {
+    padding: 10px 20px;
+    color: #333333;
+    text-decoration: underline;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.35s ease-in;
+}
+
+.blog .blog-inner:hover a i {
+    color: #0150E1;
+    padding: 10px 0px;
+    border-bottom: 3px solid #09CB82;
+}
+
+
+.blog .blog-inner:hover h3 {
+    color: #0150E1;
+}
