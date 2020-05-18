@@ -1,0 +1,398 @@
+/*---------------------------------------------
+Template name:  negma-personal-portfolio
+Version: 1.0       
+Author:         
+Author Email:   
+Redesign : Shanto
+
+----------------------------------------------*/
+
+/* ###################################
+    Defolut Site Custom Css
+###################################### */
+
+/* FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900');
+
+/* Site Custom Css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+}
+
+button[type=submit] {
+    cursor: pointer;
+    border: none;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+a:hover {}
+
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #888888;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+/* Padding */
+
+.pdtb-150 {
+    padding: 150px 0px;
+}
+
+.pdtb-100 {
+    padding: 100px 0px;
+}
+
+.pdtb-50 {
+    padding: 50px 0px;
+}
+
+.pdt-50 {
+    padding-top: 50px;
+}
+
+.pdb-100 {
+    padding-bottom: 100px;
+}
+
+.pdb-20 {
+    padding-bottom: 20px;
+}
+
+.pdtb-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.mg-top {
+    margin-top: 50px;
+}
+
+.mg-bottom {
+    margin-bottom: 50px;
+}
+
+
+
+
+/* ==========Theme Color========== */
+
+/* Text color */
+.blue-text {
+    color: #4A63E7;
+}
+
+.red-text {
+    color: #FF5959;
+}
+
+.dark-gray-text {
+    color: #222222;
+}
+
+.light-gray-text {
+    color: #888888;
+}
+
+
+/* background color */
+.blue-bg {
+    background-color: #4A63E7;
+}
+
+.red-bg {
+    background-color: #FF5959;
+}
+
+.dark-gray-bg {
+    background-color: #222222;
+}
+
+.light-gray-bg {
+    background-color: #888888;
+}
+
+
+
+.w {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {}
+
+.section-title h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.section-title span {
+    position: relative;
+    height: 5px;
+    width: 30px;
+    background: #ff5959;
+    border-radius: 10px;
+    margin-left: calc(50% - 27px);
+    display: block;
+}
+
+
+.section-title span::before,
+.section-title span::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    background: #ff5959;
+    border-radius: 10px;
+    right: -60%;
+    top: 0;
+}
+
+.section-title span::before {
+    width: 50%;
+    right: -60%;
+}
+
+.section-title span::after {
+    width: 25%;
+    right: -100%;
+}
+
+
+
+/* ========== End defult Css ========== */
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #222222;
+    font-weight: 400;
+    line-height: 36px;
+    background: #F6F7FF;
+}
+
+/* ===========================
+    01. Header -> navigaton
+=========================== */
+header {}
+
+header .navbar {
+    background: #fff;
+    padding: 20px 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 8px 11px -7px rgba(0, 0, 0, 0.2);
+    transition: all .35s;
+}
+
+header .navbar .navbar-brand img {
+    width: 220px;
+}
+
+header .navbar .navbar-nav {}
+
+header .navbar .navbar-nav .nav-item {}
+
+header .navbar .navbar-nav .nav-item .nav-link {
+    color: #FF5959;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    transition: all .35s ease-in;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #FF5959;
+    transition: width .3s ease-in;
+}
+
+header .navbar .navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+    transition: width .3s ease-in;
+}
+
+
+/* ===========================
+    02. Hero
+=========================== */
+.hero {
+    background-image: linear-gradient(rgba(32, 32, 32, 0.92), rgba(26, 27, 29, 0.37)), url(../img/Background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.hero-inner {}
+
+.hero-inner p {
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.hero-inner h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.hero-inner h3 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.hero-inner a {
+    color: #fff;
+    background: #FF5959;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all .35s;
+}
+
+.hero-inner a:hover {
+    background: #fff;
+    color: #FF5959;
+}
+
+
+/* ===========================
+    03. About
+=========================== */
+.about {
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about {
+    background: #fff;
+}
+
+.about-left img {
+    border-radius: 50%;
+    width: 350px;
+    margin-left: 15%;
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.about-right {
+    margin-right: 20px;
+}
+
+.about-right ul li::before {
+    /* u */
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: -webkit-radial-gradient(center, ellipse cover, #efefef 0%, rgba(255, 255, 255, 0) 70%);
+    background: -moz-radial-gradient(center, ellipse cover, #efefef 0%, rgba(255, 255, 255, 0) 70%);
+    background: -o-radial-gradient(center, ellipse cover, #efefef 0%, rgba(255, 255, 255, 0) 70%);
+    background: -ms-radial-gradient(center, ellipse cover, #efefef 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at center, #efefef 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.about-right ul li {
+    /* u */
+    padding: 11px 0;
+    position: relative;
+    display: block;
+    vertical-align: top;
+    width: auto;
+    word-break: break-word;
+    text-align: right;
+}
+
+.about-right ul li strong {
+    /* u */
+    float: left;
+    padding: 1px 0;
+    line-height: 20px;
+    border-left: 2px solid #ff5959;
+    text-indent: 8px;
+    color: #222;
+    font-weight: 500;
+}
+
+.about-right p {
+    margin-left: 35px;
+    text-align: justify;
+    font-size: 16px;
+}
